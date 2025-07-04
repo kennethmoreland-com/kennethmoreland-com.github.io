@@ -1,0 +1,13 @@
+#baseURL: https://example.org/
+languageCode: en-us
+title: Kenneth Moreland
+
+theme: hyde
+
+params:
+  description: Professional Activities
+
+menus:
+  main:
+    - name: Projects
+      url: /projects/
