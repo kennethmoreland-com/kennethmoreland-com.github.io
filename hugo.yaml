@@ -11,3 +11,10 @@ menus:
   main:
     - name: Projects
       url: /projects/
+
+# Allow html tags in markdown.
+# This is necessary to make most shortcodes work with markdown.
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
