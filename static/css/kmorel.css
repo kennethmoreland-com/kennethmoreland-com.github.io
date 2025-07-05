@@ -2,3 +2,12 @@ img {
   display: inline;
   margin: 0;
 }
+
+.constrainImage {
+	overflow: auto;
+}
+
+.descriptionItem {
+	font-weight: bold;
+	margin-right: 5px;
+}
