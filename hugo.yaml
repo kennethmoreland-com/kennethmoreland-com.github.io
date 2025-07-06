@@ -2,15 +2,35 @@
 languageCode: en-us
 title: Kenneth Moreland
 
-theme: hyde
+theme: km-cv
 
 params:
   description: Professional Activities
+  # Width of sidebar in vertical mode
+  sidebarwidth: 205px
+  # Height of sidebar in horizontal mode
+  sidebarheight: 75px
 
-menus:
+menu:
   main:
     - name: Projects
       url: /projects/
+      weight: 1
+    - name: Research Highlights
+      url: /highlights/
+      weight: 2
+    - name: Color Map Advice
+      url: /color-advice/
+      weight: 90
+      parent: Research Highlights
+    - name: Parallel Scaling Metrics
+      url: /parallel-scaling-metrics/
+      weight: 91
+      parent: Research Highlights
+    - name: Diverging Color Maps
+      url: /color-maps/
+      weight: 92
+      parent: Research Highlights
 
 # Allow html tags in markdown.
 # This is necessary to make most shortcodes work with markdown.

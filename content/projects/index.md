@@ -75,7 +75,7 @@ community.
 {{< /project >}}
 
 {{< project name="Dax" link="http://daxtoolkit.org/" icon="dax.png" >}}
-DaxDax(2010–2014) I was leading the Dax project for next-generation
+(2010–2014) I was leading the Dax project for next-generation
 visualization tools. Dax provides a framework for designing visualization
 algorithms with massive amounts of concurrency. The first iteration of this
 project is focusing on GPU accelerators with a transition plan for supporting
@@ -84,7 +84,7 @@ Viskores.
 {{< /project >}}
 
 {{< project name="UltraVis" link="http://ultravis.org/" icon="ultravis.png" >}}
-I was a co-PI for the SciDAC Institute for Ultrascale Visualization (or UltraVis
-for short). The UltraVis mission is to address the petascale visualization
-challenges facing computational science and engineering.
+(2007–2012) I was a co-PI for the SciDAC Institute for Ultrascale Visualization
+(or UltraVis for short). The UltraVis mission is to address the petascale
+visualization challenges facing computational science and engineering.
 {{< /project >}}

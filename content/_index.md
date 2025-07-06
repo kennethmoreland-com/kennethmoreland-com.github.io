@@ -2,6 +2,8 @@
 title = 'Kenneth Moreland'
 +++
 
+# Kenneth Moreland
+
 Welcome to my home page, where you will find a list of my current and past
 activities. I am currently a Senior Research Scientist at Oak Ridge National
 Laboratory for the [Visualization group] in the [Computer Science and Mathematics
