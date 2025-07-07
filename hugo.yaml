@@ -9,7 +9,7 @@ params:
   # Width of sidebar in vertical mode
   sidebarwidth: 205px
   # Height of sidebar in horizontal mode
-  sidebarheight: 124px
+  sidebarheight: 148px
 
 menu:
   main:
@@ -40,6 +40,10 @@ menu:
     - name: Education
       url: /education/
       weight: 5
+
+    - name: Contact Information
+      url: /contact/
+      weight: 6
 
 # Allow html tags in markdown.
 # This is necessary to make most shortcodes work with markdown.
