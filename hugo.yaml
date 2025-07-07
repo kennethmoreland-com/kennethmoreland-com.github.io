@@ -9,13 +9,14 @@ params:
   # Width of sidebar in vertical mode
   sidebarwidth: 205px
   # Height of sidebar in horizontal mode
-  sidebarheight: 75px
+  sidebarheight: 99px
 
 menu:
   main:
     - name: Projects
       url: /projects/
       weight: 1
+
     - name: Research Highlights
       url: /highlights/
       weight: 2
@@ -31,6 +32,10 @@ menu:
       url: /color-maps/
       weight: 92
       parent: Research Highlights
+
+    - name: Professional Activities
+      url: /professional-activities/
+      weight: 4
 
 # Allow html tags in markdown.
 # This is necessary to make most shortcodes work with markdown.
