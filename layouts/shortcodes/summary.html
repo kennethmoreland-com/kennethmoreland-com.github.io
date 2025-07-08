@@ -4,11 +4,15 @@
       {{ if .icon }}
         <div class="pubImage">
           <a href="{{ .link }}">
-            <img src="{{ .icon }}" alt="{{ .name }}" />
+            <img src="{{ .icon }}" alt="{{ .title }}"
+              {{- if .iconwidth -}}
+              width="{{ .iconwidth }}"
+              {{- end -}}
+              />
           </a>
         </div>
       {{ end }}
-      <div class="pubTitle"><a href="{{ .link }}">{{ .name }}</a></div>
+      <div class="pubTitle"><a href="{{ .link }}">{{ .title }}</a></div>
     {{ end }}
     <div class="pubDescription">
       {{ .Inner | markdownify }}
