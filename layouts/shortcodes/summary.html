@@ -1,0 +1,17 @@
+<div class="constrainImage">
+  <p>
+    {{ with .Params }}
+      {{ if .icon }}
+        <div class="pubImage">
+          <a href="{{ .link }}">
+            <img src="{{ .icon }}" alt="{{ .name }}" />
+          </a>
+        </div>
+      {{ end }}
+      <div class="pubTitle"><a href="{{ .link }}">{{ .name }}</a></div>
+    {{ end }}
+    <div class="pubDescription">
+      {{ .Inner | markdownify }}
+    </div>
+  </p>
+</div>
