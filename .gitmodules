@@ -1,3 +1,6 @@
 [submodule "themes/km-cv"]
 	path = themes/km-cv
 	url = https://github.com/kennethmoreland-com/km-cv.git
+[submodule "curriculum_vitae"]
+	path = curriculum_vitae
+	url = https://github.com/kmorel-papers/curriculum_vitae.git
