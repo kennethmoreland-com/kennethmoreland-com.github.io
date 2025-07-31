@@ -4,7 +4,7 @@ title = 'Research Highlights'
 
 {{< summary 
   title="Color Map Advice for Scientific Visualization"
-  link="color-advice"
+  link="/color-advice/"
   icon="color-advice.png"
   >}}
 When representing numeric values as colors, the choice of color has a dramatic
