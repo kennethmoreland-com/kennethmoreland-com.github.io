@@ -7,9 +7,9 @@ theme: km-cv
 params:
   description: Professional Activities
   # Width of sidebar in vertical mode
-  sidebarwidth: 205px
+  sidebarwidth: 250px
   # Height of sidebar in horizontal mode
-  sidebarheight: 148px
+  sidebarheight: 172px
 
 menu:
   main:
@@ -32,6 +32,38 @@ menu:
       url: /color-maps/
       weight: 92
       parent: Research Highlights
+
+    - name: Publications
+      url: /publications/
+      weight: 3
+    - name: Journals and Conferences
+      url: /publications/#journal
+      weight: 10
+      parent: Publications
+    - name: Ph.D. Dissertation
+      url: /publications/#dissertation
+      weight: 11
+      parent: Publications
+    - name: Symposiums and Workshops
+      url: /publications/#tier-3
+      weight: 12
+      parent: Publications
+    - name: Technical Reports
+      url: /publications/#tech-report
+      weight: 13
+      parent: Publications
+    - name: Posters
+      url: /publications/#poster
+      weight: 14
+      parent: Publications
+    - name: Presentations
+      url: /publications/#presentation
+      weight: 15
+      parent: Publications
+    - name: Panels
+      url: /publications/#panel
+      weight: 16
+      parent: Publications
 
     - name: Professional Activities
       url: /professional-activities/

@@ -1,0 +1,57 @@
++++
+title = 'Publications'
++++
+
+You can also can also view the publications and metrics collected on [my Google
+Scholar page].
+
+[my Google Scholar page]: https://scholar.google.com/citations?hl=en&user=d00I5gUAAAAJ
+
+
+<div id="journal"></div>
+
+## Journal and Conference Papers
+
+@JOURNAL_PUBS@
+
+
+<div id="dissertation"></div>
+
+## Ph.D. Dissertation
+
+@PHD_PUB@
+
+
+<div id="tier-3"></div>
+
+## Symposium, Workshop, and Invited Papers
+
+@WORKSHOP_PUBS@
+
+
+<div id="tech-report"></div>
+
+## Technical Reports and other Non Peer Reviewed
+
+@NOPEER_PUBS@
+
+
+<div id="poster"></div>
+
+## Posters
+
+@POSTER_PUBS@
+
+
+<div id="presentation"></div>
+
+## Presentations
+
+@PRESENTATION_PUBS@
+
+
+<div id="panel"></div>
+
+## Panels
+
+@PANEL_PUBS@
