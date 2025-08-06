@@ -298,7 +298,7 @@ In _IEEE Symposium on Volume Visualization and Graphics_, pages 9–16, October 
 **Kenneth Moreland** and David Thompson.
 In _Proceedings of IEEE Symposium on Parallel and Large-Data Visualization and Graphics_, pages 25–31, October 2003.
 
-{{% pubtitle %}}The FFT on a GPU{{% /pubtitle %}}.
+{{% pubtitle %}}[The FFT on a GPU](/fftgpu/){{% /pubtitle %}}.
 **Kenneth Moreland** and Edward Angel.
 In _SIGGRAPH/Eurographics Workshop on Graphics Hardware 2003 Proceedings_, pages 112–119, July 2003.
 

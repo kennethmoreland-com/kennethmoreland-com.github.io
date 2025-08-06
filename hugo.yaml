@@ -44,6 +44,10 @@ menu:
       url: /scalable-rendering/
       weight: 95
       parent: Research Highlights
+    - name: The FFT on a GPU
+      url: /fftgpu/
+      weight: 96
+      parent: Research Highlights
 
     - name: Publications
       url: /publications/
