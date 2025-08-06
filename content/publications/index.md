@@ -91,7 +91,7 @@ _IEEE Computer_, 5, 46(5):34–42, May 2013.
 _IEEE Transactions on Visualization and Computer Graphics_, 3, 19(3):367–378, March 2013.
 [doi:10.1109/TVCG.2012.133](https://dx.doi.org/10.1109/TVCG.2012.133).
 
-{{% pubtitle %}}An Image Compositing Solution at Scale{{% /pubtitle %}}.
+{{% pubtitle %}}[An Image Compositing Solution at Scale](/scalable-rendering/#an-image-compositing-solution-at-scale){{% /pubtitle %}}.
 **Kenneth Moreland**, Wesley Kendall, Tom Peterka, and Jian Huang.
 In _Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis (SC '11)_, November 2011.
 [doi:10.1145/2063384.2063417](https://dx.doi.org/10.1145/2063384.2063417).
@@ -174,7 +174,7 @@ Sudhanshu Sane, Abhishek Yenpure, Roxana Bujack, Matthew Larsen, **Kenneth Morel
 In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, June 2021.
 Winner best paper.[doi:10.2312/pgv.20211040](https://dx.doi.org/10.2312/pgv.20211040).
 
-{{% pubtitle %}}GPU-based Image Compression for Efficient Compositing in Distributed Rendering Applications{{% /pubtitle %}}.
+{{% pubtitle %}}[GPU-based Image Compression for Efficient Compositing in Distributed Rendering Applications](/scalable-rendering/#gpu-based-compression-for-distributed-rendering){{% /pubtitle %}}.
 Riley Lipinksi, **Kenneth Moreland**, Michael E. Papka, and Thomas Marrinan.
 In _2021 IEEE 11th Symposium on Large Data Analysis and Visualization (LDAV)_, pages 43–52, 2021.
 [doi:10.1109/LDAV53230.2021.00012](https://dx.doi.org/10.1109/LDAV53230.2021.00012).
@@ -184,7 +184,7 @@ Abhishek Yenpure, Hank Childs, and **Kenneth Moreland**.
 In _Eurographics Symposium on Parallel Graphics and VIsualization (EGPGV)_, June 2019.
 [doi:10.2312/pgv.20191112](https://dx.doi.org/10.2312/pgv.20191112).
 
-{{% pubtitle %}}Comparing Binary-Swap Algorithms for Odd Factors of Processes{{% /pubtitle %}}.
+{{% pubtitle %}}[Comparing Binary-Swap Algorithms for Odd Factors of Processes](/scalable-rendering/#binary-swap-on-odd-factors-of-processes){{% /pubtitle %}}.
 **Kenneth Moreland**.
 In _Proceedings of the 8th IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 2018.
 [doi:10.1109/LDAV.2018.8739210](https://dx.doi.org/10.1109/LDAV.2018.8739210).
@@ -306,7 +306,7 @@ In _SIGGRAPH/Eurographics Workshop on Graphics Hardware 2003 Proceedings_, pages
 Brian Wylie, **Kenneth Moreland**, Lee Ann Fisk, and Patricia Crossno.
 In _Proceedings of IEEE Volume Visualization and Graphics Symposium_, pages 7–12, October 2002.
 
-{{% pubtitle %}}Sort-Last Parallel Rendering for Viewing Extremely Large Data Sets on Tile Displays{{% /pubtitle %}}.
+{{% pubtitle %}}[Sort-Last Parallel Rendering for Viewing Extremely Large Data Sets on Tile Displays](/scalable-rendering/#sort-last-parallel-rendering-on-tile-displays){{% /pubtitle %}}.
 **Kenneth Moreland**, Brian Wylie, and Constantine Pavlakos.
 In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualization and Graphics_, pages 85–92, October 2001.
 [doi:10.1109/PVGS.2001.964408](https://dx.doi.org/10.1109/PVGS.2001.964408).

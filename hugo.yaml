@@ -40,6 +40,10 @@ menu:
       url: /vis-pipelines/
       weight: 94
       parent: Research Highlights
+    - name: Scalable Rendering
+      url: /scalable-rendering/
+      weight: 95
+      parent: Research Highlights
 
     - name: Publications
       url: /publications/
