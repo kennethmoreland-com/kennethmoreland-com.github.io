@@ -262,7 +262,7 @@ In _Proceedings of the IEEE Symposium on Large-Scale Data Analysis and Visualiza
 Scott Klasky, _et al_.
 In _Proceedings of SciDAC 2011_, July 2011.
 
-{{% pubtitle %}}Diverging Color Maps for Scientific Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[Diverging Color Maps for Scientific Visualization](/color-maps/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 In _Advances in Visual Computing (Proceedings of the 5th International Symposium on Visual Computing)_, 5876:92–103, December 2009.
 [doi:10.1007/978-3-642-10520-3_9](https://dx.doi.org/10.1007/978-3-642-10520-3_9).
