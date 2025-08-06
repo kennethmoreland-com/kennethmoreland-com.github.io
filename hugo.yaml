@@ -36,6 +36,10 @@ menu:
       url: /topology-threading/
       weight: 93
       parent: Research Highlights
+    - name: Visualization Pipelines
+      url: /vis-pipelines/
+      weight: 94
+      parent: Research Highlights
 
     - name: Publications
       url: /publications/

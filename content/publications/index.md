@@ -86,7 +86,7 @@ Hank Childs, Berk Geveci, Will Schroeder, Jeremy Meredith, **Kenneth Moreland**,
 _IEEE Computer_, 5, 46(5):34–42, May 2013.
 [doi:10.1109/MC.2013.179](https://dx.doi.org/10.1109/MC.2013.179).
 
-{{% pubtitle %}}A Survey of Visualization Pipelines{{% /pubtitle %}}.
+{{% pubtitle %}}[A Survey of Visualization Pipelines](/vis-pipelines/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _IEEE Transactions on Visualization and Computer Graphics_, 3, 19(3):367–378, March 2013.
 [doi:10.1109/TVCG.2012.133](https://dx.doi.org/10.1109/TVCG.2012.133).
