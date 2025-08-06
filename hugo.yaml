@@ -32,6 +32,10 @@ menu:
       url: /color-maps/
       weight: 92
       parent: Research Highlights
+    - name: Topology Threading
+      url: /topology-threading/
+      weight: 93
+      parent: Research Highlights
 
     - name: Publications
       url: /publications/

@@ -179,7 +179,7 @@ Riley Lipinksi, **Kenneth Moreland**, Michael E. Papka, and Thomas Marrinan.
 In _2021 IEEE 11th Symposium on Large Data Analysis and Visualization (LDAV)_, pages 43–52, 2021.
 [doi:10.1109/LDAV53230.2021.00012](https://dx.doi.org/10.1109/LDAV53230.2021.00012).
 
-{{% pubtitle %}}Efficient Point Merging Using Data Parallel Techniques{{% /pubtitle %}}.
+{{% pubtitle %}}[Efficient Point Merging Using Data Parallel Techniques](/topology-threading#efficient-point-merging-using-data-parallel-techniques){{% /pubtitle %}}.
 Abhishek Yenpure, Hank Childs, and **Kenneth Moreland**.
 In _Eurographics Symposium on Parallel Graphics and VIsualization (EGPGV)_, June 2019.
 [doi:10.2312/pgv.20191112](https://dx.doi.org/10.2312/pgv.20191112).
@@ -189,7 +189,7 @@ In _Eurographics Symposium on Parallel Graphics and VIsualization (EGPGV)_, June
 In _Proceedings of the 8th IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 2018.
 [doi:10.1109/LDAV.2018.8739210](https://dx.doi.org/10.1109/LDAV.2018.8739210).
 
-{{% pubtitle %}}Techniques for Data-Parallel Searching for Duplicate Elements{{% /pubtitle %}}.
+{{% pubtitle %}}[Techniques for Data-Parallel Searching for Duplicate Elements](/topology-threading/#techniques-for-data-parallel-searching-for-duplicate-elements){{% /pubtitle %}}.
 Brenton Lessley, **Kenneth Moreland**, Matthew Larsen, and Hank Childs.
 In _IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 2017.
 [doi:10.1109/LDAV.2017.8231845](https://dx.doi.org/10.1109/LDAV.2017.8231845).
@@ -214,7 +214,7 @@ In _Proceedings of the First Workshop on In Situ Infrastructures for Enabling Ex
 _Supercomputing Frontiers and Innovations_, 3, 2(3), November 2015.
 [doi:10.14529/jsfi150306](https://dx.doi.org/10.14529/jsfi150306).
 
-{{% pubtitle %}}Finely-Threaded History-Based Topology Computation{{% /pubtitle %}}.
+{{% pubtitle %}}[Finely-Threaded History-Based Topology Computation](/topology-threading/#finely-threaded-history-based-topology-computation){{% /pubtitle %}}.
 Robert Miller, **Kenneth Moreland**, and Kwan-Liu Ma.
 In _Eurographics Symposium on Parallel Graphics and Visualization_, June 2014.
 [doi:10.2312/pgv.20141083](https://dx.doi.org/10.2312/pgv.20141083).
