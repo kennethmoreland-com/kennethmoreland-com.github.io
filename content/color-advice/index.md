@@ -494,10 +494,10 @@ It is always good practice to check the images you make to ensure that the color
 
 ## Publication
 
-{{% pubtitle %}}Why We Use Bad Color Maps and What You Can Do About It{{%
-/pubtitle %}}. Kenneth Moreland. In _Proceedings of Human Vision and Electronic
-Imaging (HVEI)_, February 2016. DOI
-[10.2352/ISSN.2470-1173.2016.16.HVEI-133](https://dx.doi.org/10.2352/ISSN.2470-1173.2016.16.HVEI-133).
+{{% pubtitle %}}Why We Use Bad Color Maps and What You Can Do About It{{% /pubtitle %}}.
+Kenneth Moreland.
+In _Proceedings of Human Vision and Electronic Imaging (HVEI)_, February 2016.
+[doi:10.2352/ISSN.2470-1173.2016.16.HVEI-133](https://dx.doi.org/10.2352/ISSN.2470-1173.2016.16.HVEI-133).
 
 Abstract
 We know the rainbow color map is terrible, and it is emphatically reviled by the visualization community, yet its use continues to persist. Why do we continue to use a this perceptual encoding with so many known flaws? Instead of focusing on why we should not use rainbow colors, this position statement explores the rational for why we do pick these colors despite their flaws. Often the decision is influenced by a lack of knowledge, but even experts that know better sometimes choose poorly. A larger issue is the expedience that we have inadvertently made the rainbow color map become. Knowing why the rainbow color map is used will help us move away from it. Education is good, but clearly not sufficient. We gain traction by making sensible color alternatives more convenient. It is not feasible to force a color map on users. Our goal is to supplant the rainbow color map as a common standard, and we will find that even those wedded to it will migrate away.

@@ -6,10 +6,10 @@ title = 'Formal Metrics for Large-Scale Parallel Performance'
   <img src="parallel-scaling-metrics.svg" width="200px" />
 </div>
 
-{{% pubtitle %}}Formal Metrics for Large-Scale Parallel
-Performance{{% /pubtitle %}}. Kenneth Moreland and Ron Oldfield.
-In _High Performance Computing_, July 2015. DOI
-[10.1007/978-3-319-20119-1_34](https://dx.doi.org/10.1007/978-3-319-20119-1_34).
+{{% pubtitle %}}Formal Metrics for Large-Scale Parallel Performance{{% /pubtitle %}}.
+Kenneth Moreland and Ron Oldfield.
+In _ISC High Performance_, pages 488–496, June 2015.
+[doi:10.1007/978-3-319-20119-1_34](https://dx.doi.org/10.1007/978-3-319-20119-1_34).
 
 ## Abstract
 

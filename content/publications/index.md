@@ -66,7 +66,7 @@ _IEEE Computer Graphics and Applications_, 3, 36(3):48–58, May/June 2016.
 _IEEE Computer Graphics and Applications_, 2, 36(2):5–9, March/April 2016.
 [doi:10.1109/MCG.2016.35](https://dx.doi.org/10.1109/MCG.2016.35).
 
-{{% pubtitle %}}Formal Metrics for Large-Scale Parallel Performance{{% /pubtitle %}}.
+{{% pubtitle %}}[Formal Metrics for Large-Scale Parallel Performance](/parallel-scaling-metrics/){{% /pubtitle %}}.
 **Kenneth Moreland** and Ron Oldfield.
 In _ISC High Performance_, pages 488–496, June 2015.
 [doi:10.1007/978-3-319-20119-1_34](https://dx.doi.org/10.1007/978-3-319-20119-1_34).
@@ -199,7 +199,7 @@ Matthew Larsen, **Kenneth Moreland**, Chris Johnson, and Hank Childs.
 In _Proceedings of the IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 2016.
 [doi:10.1109/LDAV.2016.7874308](https://dx.doi.org/10.1109/LDAV.2016.7874308).
 
-{{% pubtitle %}}Why We Use Bad Color Maps and What You Can Do About It{{% /pubtitle %}}.
+{{% pubtitle %}}[Why We Use Bad Color Maps and What You Can Do About It](/color-advice/#publication){{% /pubtitle %}}.
 **Kenneth Moreland**.
 In _Proceedings of Human Vision and Electronic Imaging (HVEI)_, February 2016.
 [doi:10.2352/ISSN.2470-1173.2016.16.HVEI-133](https://dx.doi.org/10.2352/ISSN.2470-1173.2016.16.HVEI-133).
@@ -287,7 +287,7 @@ In _Visualization and Data Analysis 2007, Proceedings of SPIE-IS&T Electronic Im
 
 {{% pubtitle %}}Remote Large Data Visualization in the ParaView Framework{{% /pubtitle %}}.
 Andy Cedilnik, Berk Geveci, **Kenneth Moreland**, James Ahrens, and Jean Farve.
-In _Eurographics Parallel Graphics and Visualization 2006_, pages 163–170, May 2006.
+In _Eurographics Parallel Graphics and Visualization_, pages 163–170, May 2006.
 
 {{% pubtitle %}}A fast high accuracy volume renderer for unstructured data{{% /pubtitle %}}.
 **Kenneth Moreland** and Edward Angel.
@@ -309,6 +309,7 @@ In _Proceedings of IEEE Volume Visualization and Graphics Symposium_, pages 7–
 {{% pubtitle %}}Sort-Last Parallel Rendering for Viewing Extremely Large Data Sets on Tile Displays{{% /pubtitle %}}.
 **Kenneth Moreland**, Brian Wylie, and Constantine Pavlakos.
 In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualization and Graphics_, pages 85–92, October 2001.
+[doi:10.1109/PVGS.2001.964408](https://dx.doi.org/10.1109/PVGS.2001.964408).
 
 
 

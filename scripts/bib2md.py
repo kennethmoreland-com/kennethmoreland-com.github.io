@@ -73,6 +73,8 @@ def write_title(file, entry):
     title = f'{entry["title"]}'
   title = replace_math(title)
   link = None
+  if 'homeurl' in entry:
+    link = entry["homeurl"]
   file.write('{{% pubtitle %}}')
   file.write(hyperlink(title, link))
   file.write('{{% /pubtitle %}}.\n')
