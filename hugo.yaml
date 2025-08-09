@@ -48,6 +48,10 @@ menu:
       url: /fftgpu/
       weight: 96
       parent: Research Highlights
+    - name: Partial Pre-Integration
+      url: /partial-pre-integration/
+      weight: 97
+      parent: Research Highlights
 
     - name: Publications
       url: /publications/

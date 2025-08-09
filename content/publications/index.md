@@ -112,7 +112,7 @@ _IEEE Computer Graphics and Applications_, 4, 21(4):62–70, July/August 2001.
 
 ## Ph.D. Dissertation
 
-{{% pubtitle %}}Fast High Accuracy Volume Rendering{{% /pubtitle %}}.
+{{% pubtitle %}}[Fast High Accuracy Volume Rendering](/partial-pre-integration/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 PhD thesis, University of New Mexico, July 2004.
 
@@ -289,7 +289,7 @@ In _Visualization and Data Analysis 2007, Proceedings of SPIE-IS&T Electronic Im
 Andy Cedilnik, Berk Geveci, **Kenneth Moreland**, James Ahrens, and Jean Farve.
 In _Eurographics Parallel Graphics and Visualization_, pages 163–170, May 2006.
 
-{{% pubtitle %}}A fast high accuracy volume renderer for unstructured data{{% /pubtitle %}}.
+{{% pubtitle %}}[A Fast High Accuracy Volume Renderer for Unstructured Data](/partial-pre-integration/){{% /pubtitle %}}.
 **Kenneth Moreland** and Edward Angel.
 In _IEEE Symposium on Volume Visualization and Graphics_, pages 9–16, October 2004.
 [doi:10.1109/SVVG.2004.2](https://dx.doi.org/10.1109/SVVG.2004.2).

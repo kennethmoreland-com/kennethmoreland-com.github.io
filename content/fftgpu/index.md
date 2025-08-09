@@ -49,9 +49,17 @@ All that said, this code and the libraries it uses are at this point obsolete.
 
 ## Supplemental Code
 
-For those of you who are really adventurous, I have also archived the rest of the source code I generated during my Ph.D. program. The code is contained in a makeshift library called On-Card Algorithms (OCA). It's basically a bunch of boilerplate encapsulated in C++ objects to run Cg algorithms that do not fit will within the classical graphics pipeline. You may or may not find that useful although now there are more complete solutions such as [CUDA], [OpenCL], and many others[^othergpgpu] now available.
+For those of you who are really adventurous, I have also archived the rest of
+the source code I generated during my Ph.D. program. The code is contained in a
+makeshift library called On-Card Algorithms (OCA). It's basically a bunch of
+boilerplate encapsulated in C++ objects to run Cg algorithms that do not fit
+will within the classical graphics pipeline. You may or may not find that useful
+although now there are more complete solutions such as [CUDA], [OpenCL], and
+many others[^othergpgpu] now available.
 
-In this archive is also the collection of algorithms I happened to be working on at the time, such as in my [dissertation]. You may enjoy looking through them although many will probably be a bit worthless and other may not even work.
+In this archive is also the collection of algorithms I happened to be working on
+at the time, such as in my [dissertation]. You may enjoy looking through them
+although many will probably be a bit worthless and other may not even work.
 
 [Download oca.tar.gz](/partial-pre-integration/oca.tar.gz)
 

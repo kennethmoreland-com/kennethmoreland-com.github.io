@@ -1,0 +1,369 @@
+/*
+ * This is a Cg program for use with the NVIDIA cgc compiler.
+ *
+ * Copyright 2003 Sandia Corporation.
+ * Under the terms of Contract DE-AC04-94AL85000, there is a non-exclusive
+ * license for use of this work by or on behalf of the
+ * U.S. Government. Redistribution and use in source and binary forms, with
+ * or without modification, are permitted provided that this Notice and any
+ * statement of authorship are reproduced on all copies.
+ */
+
+struct rayseg {
+  float4 position       : POSITION;  /* Position of front face. */
+  float4 distances      : TEXCOORD0; /* Distance of front face to each face
+                                        in direction of view vector. */
+  float3 isovalues      : TEXCOORD1; /* x and y are Color lookups for
+                                        scalar values of where tetrahedra
+                                        (ray segment) is clipped.  x value
+                                        is closer to viewer.  z is the
+                                        distance between the two isoplanes
+                                        in the view direction. */
+  float frontinterp     : TEXCOORD2; /* Interpolates the color of the front
+                                        face from the front isovalue to
+                                        the back. */
+  float4 backinterp     : TEXCOORD3; /* Interpolates the color of each face
+                                        from the back isovalue to the
+                                        front. */
+};
+
+float4 selectmask[4] = {
+  {1, 0, 0, 0},
+  {0, 1, 0, 0},
+  {0, 0, 1, 0},
+  {0, 0, 0, 1}
+};
+float4 invselectmask[4] = {
+  {0, 1, 1, 1},
+  {1, 0, 1, 1},
+  {1, 1, 0, 1},
+  {1, 1, 1, 0}
+};
+
+rayseg mainvert(float4 position,        /* Position of the vertex. */
+                float distance,         /* Distance from the vertex to the
+                                           to opposite face in the view
+                                           direction (negative if opposite
+                                           face is closer to viewpoint). */
+                float2 isovalues,       /* Texture lookup indices for
+                                           clipping isovalues.  The x index
+                                           is closer to the viewpoint. */
+                float2 interpolants,    /* Used to interpolate the actual
+                                           colors of the front and back
+                                           scalars. */
+                float vertNum,
+                uniform float4x4 ModelViewProj)
+{
+  rayseg output;
+
+  output.position = mul(ModelViewProj, position);
+
+  output.distances = selectmask[vertNum]*distance;
+
+  output.frontinterp = interpolants.x;
+
+  /* Note that we invert the interpolation so that the back scalar is
+     interpolated from the back isoplane to the front isoplane. */
+  output.backinterp = 1 - (  invselectmask[vertNum]*interpolants.x
+                           + selectmask[vertNum]*interpolants.y );
+
+  output.isovalues.xy = isovalues;
+  /* Compute distance between isoplanes. */
+  if (interpolants.x != interpolants.y)
+    {
+    output.isovalues.z = distance/(interpolants.y-interpolants.x);
+    }
+  else
+    {
+    /* Special case when front and back scalars are equal: distance
+       between planes does not matter. */
+    output.isovalues.z = 1.0e30;
+    }
+
+  return output;
+}
+
+#ifndef PARTIAL_PRE_INTEGRATION
+float4 integrateRay(in float4 colorBack, in float4 colorFront,
+                    in float distance);
+#else
+float4 integrateRay(in float4 colorBack, in float4 colorFront,
+                    in float distance, in sampler2D PsiTable);
+#endif
+
+#if (defined(AVERAGE_COLOR_AVERAGE_ATTENUATION_RAY_INTEGRATION)||defined(LINEAR_COLOR_LINEAR_ATTENUATION_RAY_INTEGRATION)||defined(PARTIAL_PRE_INTEGRATION_RAY_INTEGRATION))
+#define INTERPOLATE_ATTENUATION
+#endif
+
+float4 mainfrag(rayseg input,
+                uniform sampler1D TransferFunction,
+#ifdef PARTIAL_PRE_INTEGRATION_RAY_INTEGRATION
+                uniform sampler2D PsiTable,
+#endif
+                uniform float LengthMultiply) : COLOR
+{
+  float4 mask;
+
+  /* Make mask be 1 for all distances <= 0. */
+  mask = (float4)(input.distances <= 0);
+
+  /* Make all these entries larger so that we do not select them. */
+  float4 tmp1 = input.distances + mask*1.0e38;
+
+  float2 tmp2 = min(tmp1.xy, tmp1.zw);
+  /* distance is actual distance from front to back of ray segment. */
+  float distance = min(tmp2.x, tmp2.y);
+
+  /* Make mask be 1 for minimum depth. */
+  mask = (float4)(tmp1 == distance);
+
+  float2 interpolants;
+  interpolants.x = input.frontinterp;
+  interpolants.y = dot(mask, input.backinterp);
+
+  /* If either interpolation variable is greater than 1, the segment is
+     completely outside the iso range. */
+  discard (interpolants > 1);
+
+  /* Remove any "empty space" from the distance. */
+  distance -= dot(float2(1,1),
+                  input.isovalues.z*max(-interpolants, float2(0,0)));
+
+  float4 isocolorFront = tex1D(TransferFunction, input.isovalues.x);
+  float4 isocolorBack = tex1D(TransferFunction, input.isovalues.y);
+
+#ifdef INTERPOLATE_ATTENUATION
+  isocolorFront.a = -log(1 - isocolorFront.a);
+  isocolorBack.a = -log(1 - isocolorBack.a);
+#endif
+
+  /* If either distance is negative, it means that face is in between the
+     two isosurfaces.  We have to interpolate the actual scalar value in
+     this case.  It is the expected case that we have to interpolate at
+     least one value. */
+  interpolants = max(interpolants, float2(0,0));
+  float4 colorFront = lerp(isocolorFront, isocolorBack, interpolants.xxxx);
+  float4 colorBack = lerp(isocolorBack, isocolorFront, interpolants.yyyy);
+
+#ifndef PARTIAL_PRE_INTEGRATION_RAY_INTEGRATION
+  return integrateRay(colorBack, colorFront, distance*LengthMultiply);
+#else
+  return integrateRay(colorBack, colorFront, distance*LengthMultiply, PsiTable);
+#endif
+}
+
+#if (defined(AVERAGE_COLOR_AVERAGE_OPACITY_RAY_INTEGRATION) || defined(AVERAGE_COLOR_AVERAGE_ATTENUATION_RAY_INTEGRATION))
+float4 integrateRay(in float4 colorBack, in float4 colorFront,
+                    in float distance)
+{
+  float4 colorAvg = 0.5*(colorBack+colorFront);
+#ifndef INTERPOLATE_ATTENUATION
+  /* a component is opacity */
+/*   colorAvg.a = 1 - exp(distance*log(1-colorAvg.a)); */
+  colorAvg.a = 1 - pow(1-colorAvg.a, distance);
+#else
+  /* a component is attenuation */
+  colorAvg.a = 1 - exp(-distance*colorAvg.a);
+#endif
+
+  colorAvg.rgb *= colorAvg.a;
+
+  return colorAvg;
+}
+#endif /*(defined(AVERAGE_COLOR_AVERAGE_OPACITY_RAY_INTEGRATION) || defined(AVERAGE_COLOR_AVERAGE_ATTENUATION_RAY_INTEGRATION))*/
+
+
+#ifdef LINEAR_COLOR_AVERAGE_OPACITY_RAY_INTEGRATION
+float4 integrateRay(in float4 colorBack, in float4 colorFront,
+                    in float distance)
+{
+  float dtau = -distance*log(1-0.5*(colorBack.a+colorFront.a));
+  float zeta = exp(-dtau);
+  float alpha = 1 - zeta;
+  float Psi = alpha/dtau;
+
+  float4 color;
+  color.rgb = colorFront.rgb*(1-Psi) + colorBack.rgb*(Psi - zeta);
+  color.a = alpha;
+  return color;
+}
+#endif /*LINEAR_COLOR_AVERAGE_OPACITY_RAY_INTEGRATION*/
+
+
+#ifdef LINEAR_COLOR_LINEAR_OPACITY_RAY_INTEGRATION
+float4 integrateRay(in float4 colorBack, in float4 colorFront,
+                    in float distance)
+{
+  float zeta = pow(1 - (  0.5*(colorBack.a+colorFront.a)
+			+ (0.108165*(colorBack.a-colorFront.a)
+			   *(colorBack.a-colorFront.a)) ), distance);
+  float alpha = 1 - zeta;
+
+  float dtau2 = -distance*log(1-(0.27*colorBack.a+0.73*colorFront.a));
+  float zeta2 = exp(-dtau2);
+  float Psi = (1-zeta2)/dtau2;
+
+  float4 color;
+  color.rgb = colorFront.rgb*(1-Psi) + colorBack.rgb*(Psi - zeta);
+  color.a = alpha;
+  return color;
+}
+#endif /*LINEAR_COLOR_LINEAR_OPACITY_RAY_INTEGRATION*/
+
+
+#ifdef PARTIAL_PRE_INTEGRATION_RAY_INTEGRATION
+#define GAMMA_TABLE_SIZE        float2(512,512)
+float4 integrateRay(in float4 colorBack, in float4 colorFront,
+                    in float distance, in sampler2D PsiTable)
+{
+  float2 taudbackfront;
+  taudbackfront.x = distance*colorBack.a;
+  taudbackfront.y = distance*colorFront.a;
+  float zeta = exp(-dot(taudbackfront, float2(0.5,0.5)));
+
+  float2 gammabackfront = taudbackfront/(1+taudbackfront);
+  float Psi = tex2D(PsiTable,
+                    gammabackfront + float2(0.5,0.5)/GAMMA_TABLE_SIZE).w;
+
+  float4 outColor;
+  outColor.rgb = colorFront.rgb*(1-Psi) + colorBack.rgb*(Psi-zeta);
+  outColor.a = 1 - zeta;
+
+  return outColor;
+}
+#endif /*PARTIAL_PRE_INTEGRATION_RAY_INTEGRATION*/
+
+
+#ifdef LINEAR_COLOR_LINEAR_ATTENUATION_RAY_INTEGRATION
+/* Forward declarations. */
+float Psi(in float taub, in float tauf, in float length);
+float erf(in float x);
+float erfi(in float x);
+float dawson(in float x);
+float erf_fitting_function(in float u);
+
+float4 integrateRay(in float4 colorBack, in float4 colorFront,
+                    in float distance)
+{
+  float Y = Psi(colorBack.a, colorFront.a, distance);
+  float zeta = exp(-distance*0.5*(colorBack.a+colorFront.a));
+
+  float4 colorOut;
+  colorOut.rgb = colorFront.rgb*(1-Y) + colorBack.rgb*(Y-zeta);
+  colorOut.a = (1-zeta);
+  return colorOut;
+}
+
+#define M_SQRTPI        1.77245385090551602792981
+#define M_SQRT1_2       0.70710678118654752440
+#define M_2_SQRTPI      1.12837916709551257390
+#define M_1_SQRTPI      (0.5*M_2_SQRTPI)
+
+float Psi(in float taub, in float tauf, in float length)
+{
+  float difftau = taub - tauf;
+  bool useHomoTau = ((difftau > -0.0001) && (difftau < 0.0001));
+  bool useErf = difftau > 0;
+
+  float Y;
+
+  if (!useHomoTau)
+    {
+    float invsqrt2lengthdifftau = 1/sqrt(2*length*abs(difftau));
+    float t = length*invsqrt2lengthdifftau;
+    float frontterm = t*tauf;
+    float backterm = t*taub;
+    float expterm = exp(frontterm*frontterm-backterm*backterm);
+    if (useErf)
+      {
+      /* Back more opaque. */
+      float u = 1/(1+0.5*frontterm);
+      Y = u*exp(erf_fitting_function(u));
+      u = 1/(1+0.5*backterm);
+      Y += -expterm*u*exp(erf_fitting_function(u));
+      Y *= M_SQRTPI;
+      }
+    else
+      {
+      /* Front more opaque. */
+      expterm = 1/expterm;
+      Y = 2*(dawson(frontterm) - expterm*dawson(backterm));
+      }
+    Y *= invsqrt2lengthdifftau;
+    }
+  else
+    {
+    float tauD = taub*length;
+    Y = (1 - exp(-tauD))/tauD;
+    }
+
+  return Y;
+}
+
+float erf(in float x)
+{
+  /* Compute as described in Numerical Recipes in C++ by Press, et al. */
+/*   x = abs(x);        In this application, x should always be <= 0. */
+  float u = 1/(1 + 0.5*x);
+  float ans = u*exp(-x*x + erf_fitting_function(u));
+/*   return (x >= 0 ? 1 - ans : ans - 1);    x should always be <= 0. */
+  return 1 - ans;
+}
+
+float erf_fitting_function(in float u)
+{
+  return
+    - 1.26551223 + u*(1.00002368 + u*(0.37409196 + u*(0.09678418 + 
+        u*(-0.18628806 + u*(0.27886807 + u*(-1.13520398 + u*(1.48851587 +
+        u*(-0.82215223 + u*0.17087277))))))));
+}
+
+float erfi(in float x)
+{
+  return M_2_SQRTPI*exp(x*x)*dawson(x);
+}
+
+/* Compute Dawson's integral as described in Numerical Recipes in C++ by
+   Press, et al. */
+#define H 0.4
+#define NMAX 6
+float dawson_constant0 = 0.852144;
+float dawson_constant1 = 0.236928;
+float dawson_constant2 = 0.0183156;
+float dawson_constant3 = 0.000393669;
+float dawson_constant4 = 2.35258e-6;
+float dawson_constant5 = 3.90894e-9;
+float dawson(in float x)
+{
+  float result;
+  if (x > 0.2)
+    {
+/*  x = abs(x);       In this application, x should always be <= 0. */
+    int n0 = 2*floor((0.5/H)*x + 0.5);
+    float xp = x - (float)n0*H;
+    float e1 = exp((2*H)*xp);
+    float e2 = e1*e1;
+    float d1 = n0 + 1;
+    float d2 = d1 - 2;
+    float sum = 0;
+    sum = dawson_constant0*(e1/d1 + 1/(d2*e1));
+    d1 += 2;  d2 -= 2;  e1 *= e2;
+    sum += dawson_constant1*(e1/d1 + 1/(d2*e1));
+    d1 += 2;  d2 -= 2;  e1 *= e2;
+    sum += dawson_constant2*(e1/d1 + 1/(d2*e1));
+    d1 += 2;  d2 -= 2;  e1 *= e2;
+    sum += dawson_constant3*(e1/d1 + 1/(d2*e1));
+    d1 += 2;  d2 -= 2;  e1 *= e2;
+    sum += dawson_constant4*(e1/d1 + 1/(d2*e1));
+    d1 += 2;  d2 -= 2;  e1 *= e2;
+    sum += dawson_constant5*(e1/d1 + 1/(d2*e1));
+    result = M_1_SQRTPI*exp(-xp*xp)*sum;
+    }
+  else
+    {
+    float x2 = x*x;
+    result = x*(1 - (2.0/3.0)*x2*(1 - .4*x2*(1 - (2.0/7.0)*x2)));
+    }
+  return result;
+}
+#endif /*LINEAR_COLOR_LINEAR_ATTENUATION_RAY_INTEGRATION*/
