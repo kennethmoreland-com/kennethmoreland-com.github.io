@@ -194,7 +194,7 @@ Brenton Lessley, **Kenneth Moreland**, Matthew Larsen, and Hank Childs.
 In _IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 2017.
 [doi:10.1109/LDAV.2017.8231845](https://dx.doi.org/10.1109/LDAV.2017.8231845).
 
-{{% pubtitle %}}Optimizing Multi-Image Sort-Last Parallel Rendering{{% /pubtitle %}}.
+{{% pubtitle %}}[Optimizing Multi-Image Sort-Last Parallel Rendering](/ldav2016/){{% /pubtitle %}}.
 Matthew Larsen, **Kenneth Moreland**, Chris Johnson, and Hank Childs.
 In _Proceedings of the IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 2016.
 [doi:10.1109/LDAV.2016.7874308](https://dx.doi.org/10.1109/LDAV.2016.7874308).
