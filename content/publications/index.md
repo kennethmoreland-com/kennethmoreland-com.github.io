@@ -96,7 +96,7 @@ _IEEE Transactions on Visualization and Computer Graphics_, 3, 19(3):367–378, 
 In _Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis (SC '11)_, November 2011.
 [doi:10.1145/2063384.2063417](https://dx.doi.org/10.1145/2063384.2063417).
 
-{{% pubtitle %}}Time Dependent Processing in a Parallel Pipeline Architecture{{% /pubtitle %}}.
+{{% pubtitle %}}[Time Dependent Processing in a Parallel Pipeline Architecture](/time-vis/){{% /pubtitle %}}.
 John Biddiscombe, Berk Geveci, Ken Martin, **Kenneth Moreland**, and David Thompson.
 _IEEE Transactions on Visualization and Computer Graphics_, 6, 13(6):1376–1383, November/December 2007.
 [doi:10.1109/TVCG.2007.70600](https://dx.doi.org/10.1109/TVCG.2007.70600).
