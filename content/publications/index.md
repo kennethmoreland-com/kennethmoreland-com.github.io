@@ -812,7 +812,7 @@ _IEEE Visualization Tutorials_, October 2008.
 **Kenneth Moreland** and John Greenfield.
 _Supercomputing Tutorials_, November 2007.
 
-{{% pubtitle %}}Parallel Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Parallel Visualization with ParaView](/pv-tutorial-sc05/){{% /pubtitle %}}.
 **Kenneth Moreland** and Berk Geveci.
 _Supercomputing Tutorials_, November 2005.
 
