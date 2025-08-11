@@ -302,9 +302,10 @@ In _Proceedings of IEEE Symposium on Parallel and Large-Data Visualization and G
 **Kenneth Moreland** and Edward Angel.
 In _SIGGRAPH/Eurographics Workshop on Graphics Hardware 2003 Proceedings_, pages 112–119, July 2003.
 
-{{% pubtitle %}}Tetrahedral Projection using Vertex Shaders{{% /pubtitle %}}.
+{{% pubtitle %}}[Tetrahedral Projection using Vertex Shaders](/gator/){{% /pubtitle %}}.
 Brian Wylie, **Kenneth Moreland**, Lee Ann Fisk, and Patricia Crossno.
 In _Proceedings of IEEE Volume Visualization and Graphics Symposium_, pages 7–12, October 2002.
+[doi:10.1109/SWG.2002.1226504](https://dx.doi.org/10.1109/SWG.2002.1226504).
 
 {{% pubtitle %}}[Sort-Last Parallel Rendering for Viewing Extremely Large Data Sets on Tile Displays](/scalable-rendering/#sort-last-parallel-rendering-on-tile-displays){{% /pubtitle %}}.
 **Kenneth Moreland**, Brian Wylie, and Constantine Pavlakos.

@@ -1,0 +1,314 @@
+!!VP1.0
+
+###################################################
+###################################################
+#  PART I - Transform the vertices by the
+#    modelview/projection matrix, compute the
+#    three vectors of interest and the z-coordinates
+#    of some cross products
+#
+#  v[0].x - which run this is (0,1,2,3 or 4)
+#
+#  (Note that program is called *6* times, with run values
+#   of 0, 1, 2, 3, 4, 1.  The last vertex output is the
+#   same as the 2nd vertex output.)
+#
+#  v[1]   - vertex 1
+#  v[2]   - vertex 2
+#  v[3]   - vertex 3
+#  v[4]   - vertex 4
+#
+#  v[5] - lighting factor
+#
+#  v[6]   - color
+#
+#
+# c[0-3]   modelview/projection matrix
+# c[4] = (0, 1, 2, 3)
+# c[5] = (1, 2, 3, 4)
+# c[6] = (8, 0, 0, 0)
+#
+# c[8] - c[15] - Vertex lookup table
+#
+###################################################
+#
+# transform the vertices by model/view/projection: R0, R1, R2, R3
+#
+
+DP4 R0.x, c[0], v[1];
+DP4 R0.y, c[1], v[1];
+DP4 R0.z, c[2], v[1];
+DP4 R0.w, c[3], v[1];
+
+DP4 R1.x, c[0], v[2];
+DP4 R1.y, c[1], v[2];
+DP4 R1.z, c[2], v[2];
+DP4 R1.w, c[3], v[2];
+
+DP4 R2.x, c[0], v[3];
+DP4 R2.y, c[1], v[3];
+DP4 R2.z, c[2], v[3];
+DP4 R2.w, c[3], v[3];
+
+DP4 R3.x, c[0], v[4];
+DP4 R3.y, c[1], v[4];
+DP4 R3.z, c[2], v[4];
+DP4 R3.w, c[3], v[4];
+
+#
+# the three vectors: R4, R5 and R6
+#
+ADD R4, R1, -R0;
+ADD R5, R2, -R0;
+ADD R6, R3, -R0;
+
+#
+# the z-coordinates of R4 X R5, R4 X R6,
+#   and the z-coord of -(R5 X R6)
+#   put these in R7
+#
+
+MUL R10, R4.xyzz, R5.yxzz;
+MUL R9,  R4.xyzz, R6.yxzz;
+MUL R11, R6.xyzz, R5.yxzz;
+
+ADD R7.x, R10.x, -R10.y;    # R4 X R5
+ADD R7.y, R9.x, -R9.y;      # R4 X R6
+ADD R7.z, R11.x, -R11.y;    # R6 X R5
+
+###################################################
+###################################################
+# PART II - Compute 3 tests, save in R4
+#
+#   Test1 =  (R7.x * R7.y  <  0)
+#   Test2 =  (R7.x * R7.z  <  0)
+#   Test4 =  (R7.x > 0)
+#
+
+MUL R11, R7.xxzz, R7.yzzz;
+SLT R4, R11.xyzz, c[4].x;     # t1 & t2
+SLT R4.w, -R7.x, c[4].x;      # t4
+
+###################################################
+###################################################
+# PART III - Reorder the vertices (R0, R1, R2, R3)
+#   into (R8, R9, R10, R11) such that their projected convex hull in
+#   CCW order is R8, R11, R9, R10 or R8, R11, R10 with R9 inside the
+#   hull.  Until the intersection test proves otherwise, we will
+#   assume all points are on the hull.
+#
+#  t1 t2 t4 |  R8  R9 R10 R11
+# ----------+-----------------
+#   0  0  0 |  R0  R3  R1  R2
+#   0  0  1 |  R0  R3  R2  R1
+#   0  1  0 |  R0  R2  R1  R3
+#   0  1  1 |  R0  R2  R3  R1
+#   1  0  0 |  R0  R1  R3  R2
+#   1  0  1 |  R0  R1  R2  R3
+#   1  1  0 |  R2  R0  R3  R1
+#   1  1  1 |  R3  R0  R2  R1
+# 
+###################################################
+
+# Get index into truth table: R5
+MAD R5.x, R4.y, c[5].y, R4.w;  # R5 = (t2 * 2) + t4
+MAD R5.x, R4.x, c[5].w, R5.x;  # R5 = (t1 * 4) + (t2 * 2) + t4
+ADD R5.x, R5.x, c[6].x;        #      + 8
+ARL A0.x, R5.x;				   # DONT REUSE R5
+
+# Copy reordered vertices
+
+MOV R11, c[A0.x];
+
+SGE R4, R11.xxxx, c[4];            # Make mask.
+SLT R6, R11.xxxx, c[5];
+MUL R4, R4, R6;
+
+MUL R8, R0, R4.xxxx;          # Copy appropriate vertex.
+MAD R8, R1, R4.yyyy, R8;
+MAD R8, R2, R4.zzzz, R8;
+MAD R8, R3, R4.wwww, R8;
+
+SGE R4, R11.yyyy, c[4];            # Make mask.
+SLT R6, R11.yyyy, c[5];
+MUL R4, R4, R6;
+
+MUL R9, R0, R4.xxxx;          # Copy appropriate vertex.
+MAD R9, R1, R4.yyyy, R9;
+MAD R9, R2, R4.zzzz, R9;
+MAD R9, R3, R4.wwww, R9;
+
+SGE R4, R11.zzzz, c[4];            # Make mask.
+SLT R6, R11.zzzz, c[5];
+MUL R4, R4, R6;					# Line 50
+
+MUL R10, R0, R4.xxxx;        # Copy appropriate vertex.
+MAD R10, R1, R4.yyyy, R10;
+MAD R10, R2, R4.zzzz, R10;
+MAD R10, R3, R4.wwww, R10;
+
+SGE R4, R11.wwww, c[4];            # Make mask.
+SLT R6, R11.wwww, c[5];
+MUL R4, R4, R6;
+
+MUL R11, R0, R4.xxxx;          # Copy appropriate vertex.
+MAD R11, R1, R4.yyyy, R11;
+MAD R11, R2, R4.zzzz, R11;
+MAD R11, R3, R4.wwww, R11;
+
+###################################################
+# PART IV - Compute the coordinates of the 
+#  intersection of the lines R8-R9 and R10-R11
+###################################################
+# This algorithm is based of that in Graphics Gems III
+# pg. 199-202 
+# We find the intersection by linearly interpreting between the points.
+# First, we define the two equations
+#       R8 + A(R9 - R8)
+#       R10 + B(R11 - R10)  
+# and then find the A and B with which the two
+# equations are equal.  Subtracting these two equations, we get:
+#       0 = (R8 - R10) + A(R9 - R8) + B(R10 - R11)
+
+ADD R0, R9, -R8;
+ADD R1, R10, -R11;
+ADD R2, R8, -R10;
+
+# Now our equation is:
+#       0 = R2 + A*R0 + B*R1
+# By looking seperately at the equations for x and y coordinates
+# (we ignore z since we are only interested in the intersection in
+# the projection on X-Y plane) we find that A and B are:
+#       A = (R1.y*R2.x - R1.x*R2.y)/(R0.y*R1.x - R0.x*R1.y)
+#       B = (R0.x*R2.y - R0.y*R2.x)/(R0.y*R1.x - R0.x*R1.y)
+# (Note that the demoninators are the same.
+
+# Denominator
+MUL R6.x, R0.x, R1.y; 
+MAD R6.x, R0.y, R1.x, -R6;
+RCP R6, R6.x;
+
+# A numerator
+MUL R3.x, R1.x, R2.y; 
+MAD R3.x, R1.y, R2.x, -R3;
+
+# B numerator
+MUL R3.y, R0.y, R2.x; 
+MAD R3.y, R0.x, R2.y, -R3.y;
+
+# The final A & B.
+MUL R3, R3, R6;				
+
+# Get the intersection points coordinates:
+#       I = R8 + A*(R9 - R8) = R8 + R3.x*R0
+# or
+#       I = R10 + B*(R11 - R10) = R10 - R3.y*R1
+# Note that the x and y coordinates of these two "intersections"
+# are the same (a good debugging check), but the z will be
+# different.  This difference can aid us in the depth caluclation.
+
+MAD R7, R3.xxxx, R0, R8;
+MAD R6, R3.yyyy, -R1, R10;
+
+# To find the intersection point above, we found the value for A
+# for which the equation
+#       R8 + A(R9 - R8)
+# equals the intersection point.  Notice that if A < 1.0, then the
+# the intersection is in the middle of segment R8R9 and the distance
+# from R8 to the intersection (R7) is less then to R9.  If A > 1.0,
+# the intersection is outside the line segment, and the distance to
+# R7 is greater.  Therefore, to do test 3, we only have to compare
+# A (stored in R3.x) to 1.0
+
+#
+# Test 3: Distance R8-R9 exceeds distance R8-R7
+#
+SLT R4.z, R3.x, c[5].x;					# Line 75
+
+
+###################################################
+###################################################
+#  PART V - Compute the thickness at the "thick"
+#    point.  If this run is generating the
+#    "thick" point, output that thickness as
+#    the texture coordinate.
+#
+###################################################
+#
+# In Part IV, we actually calculated two intersection points,
+# R7 and R6, which should only differ by z values.  The difference
+# will give us the depth at the intersection point.
+ADD R0, R7, -R6; 
+MAX R0.z, R0.z, -R0.z;  # R0.z = intersection depth
+
+# If t3 is true, then the intersection point is where the depth
+# value is located.  If it is false, the depth should be calculated
+# at R9.  In this case, we can get the depth by simply interpolating
+# back from R7 to R9.  We can reuse the A value (R3.x) for this.
+RCP R1.x, R3.x;
+MUL R1.z, R0.z, R1.x;    # R1.z = scaled depth
+
+# Pick correct thickness based on t3.  Put in R0.x
+ADD R3.x, c[5].x, -R4.z;        # R3.x = 1-t1 = !t1
+MUL R0.x, R0.z, R4.z;
+MAD R0.x, R1.z, R3.x, R0.x;
+
+#
+# input multiplier - it's non-zero only on run 0
+#
+# Note: the texture value output to the 1D texture map must
+#    be of the form  (coord, coord, 0, 1)
+#
+
+MOV R0.yzw, c[5].xxxx;         # R0 = (thickness, 1, 1, 1)
+
+SLT R1.x, v[0].x, c[5].x;		# zero out the thickness if it's not run 0
+MUL R0.x, R0.x, R1.x;   
+
+MUL o[TEX0], v[5], R0;          # (multiplier*R0.x, 0, 0, 1)
+MOV o[TEX0].y, v[6].w;			# Tau (alpha) of cell (TAKE OUT FOR LINEAR CELL!)
+
+
+###################################################
+
+
+###################################################
+#
+# Part VI - Move the chosen vertex to the output
+#
+# Given the reordering of Part III, select the following as output
+# given the run number:
+#       0 - R9 if !t3, R7 if t3
+#       1 - R10
+#       2 - R8
+#       3 - R11
+#       4 - R10 if !t3, R9 if t3
+
+# Do mask trick again
+SGE R3, v[0].xxxx, c[4];
+SLT R2, v[0].xxxx, c[5]; 
+MUL R0, R3, R2;
+
+# Get mask for 5th value (v[0].x = 4) 
+SGE R1.x, v[0].x, c[5].w;			# Line 90			
+
+# Get mask for both cases of 1st value.
+ADD R3.x, c[4].y, -R4.z;       # R3.x: !t3
+MUL R1.z, R0.x, R4.z;           # R1.z: run 0 & t3
+MUL R1.w, R0.x, R3.x;           # R1.w: run 0 & !t3
+
+MUL R1.y, R1.x, R4.z;          # R1.y: run 4 & t3
+MUL R1.x, R1.x, R3.x;          # R1.x: run 4 & !t3
+
+MUL R2, R7, R1.zzzz;            # run 0, t3
+MAD R2, R9, R1.wwww, R2;        # run 0, !t3
+MAD R2, R10, R0.yyyy, R2;        # run 1
+MAD R2, R8, R0.zzzz, R2;       # run 2
+MAD R2, R11, R0.wwww, R2;        # run 3
+MAD R2, R9, R1.yyyy, R2;       # run 4, t3
+MAD R2, R10, R1.xxxx, R2;       # run 4, !t3
+
+MOV o[HPOS], R2;					# Line 103
+MOV o[COL0].xyz, v[6]; 
+
+END
