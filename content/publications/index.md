@@ -234,7 +234,7 @@ ISBN:978-1-4398-7572-8.
 _High Performance Visualization: Enabling Extreme Scale Insight_, CRC Press, pages 373–382, 2013.
 ISBN:978-1-4398-7572-8.
 
-{{% pubtitle %}}Flexible Analysis Software for Emerging Architectures{{% /pubtitle %}}.
+{{% pubtitle %}}[Flexible Analysis Software for Emerging Architectures](/dax-pdac-2012/){{% /pubtitle %}}.
 **Kenneth Moreland**, Brad King, Robert Maynard, and Kwan-Liu Ma.
 In _2012 SC Companion (Petascale Data Analytics: Challenges and Opportunities)_, pages 821–826, November 2012.
 [doi:10.1109/SC.Companion.2012.115](https://dx.doi.org/10.1109/SC.Companion.2012.115).
