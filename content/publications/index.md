@@ -466,7 +466,7 @@ In _Proceedings of the 2008 Workshop on Ultrascale Visualization_, pages 40-46, 
 David B. Karelitz, Lisa Ice, Jason Wilke, Stephen W. Attaway, and **Kenneth Moreland**.
 Technical Report SAND 2008-6183, Sandia National Laboratories, September 2008.
 
-{{% pubtitle %}}Large Scale Visualization on the Cray XT3 Using ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization on the Cray XT3 Using ParaView](/pv-cray-xt3/){{% /pubtitle %}}.
 **Kenneth Moreland**, David Rogers, John Greenfield, Berk Geveci, Patrick Marion, Alexander Neundorf, and Kent Eschenberg.
 In _Cray User Group_, 2008.
 
