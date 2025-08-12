@@ -19,6 +19,13 @@ layers = [
   bibtexparser.middlewares.LatexDecodingMiddleware(),
 ]
 
+primary_links = [
+  'homeurl',
+]
+secondary_links = [
+  'poster',
+]
+
 bibdata = bibtexparser.parse_file(input_file, append_middleware=layers)
 
 def write_name(file, bibname):
@@ -73,8 +80,13 @@ def write_title(file, entry):
     title = f'{entry["title"]}'
   title = replace_math(title)
   link = None
-  if 'homeurl' in entry:
-    link = entry["homeurl"]
+  for plink in primary_links:
+    if (not link) and (plink in entry):
+      link = entry[plink]
+  for slink_name in secondary_links:
+    slink = slink_name + 'url'
+    if (not link) and (slink in entry):
+      link = entry[slink]
   file.write('{{% pubtitle %}}')
   file.write(hyperlink(title, link))
   file.write('{{% /pubtitle %}}.\n')
@@ -122,10 +134,21 @@ for entry in bibdata.entries:
       outf.write(f'{entry["day"]}, ')
   outf.write(f'{entry["year"]}.\n')
   if 'note' in entry:
-    outf.write(f'{entry["note"]}.')
+    outf.write(f'{entry["note"]}.\n')
   if 'doi' in entry:
     outf.write(hyperlink(f'doi:{entry["doi"]}', f'https://dx.doi.org/{entry["doi"]}'))
     outf.write('.\n')
   if 'isbn' in entry:
     outf.write(f'ISBN:{entry["isbn"]}.\n')
+  found_main_link = False
+  for plink in primary_links:
+    if plink in entry:
+      found_main_link = True
+  for slink_name in secondary_links:
+    slink = slink_name + 'url'
+    if slink in entry:
+      if found_main_link:
+        outf.write(f'<small>([{slink_name}]({entry[slink]}))</small>\n')
+      else:
+        found_main_link = True
   outf.write('\n')
