@@ -12,22 +12,22 @@ Scholar page].
 
 ## Journal and Conference Papers
 
-{{% pubtitle %}}Uncertainty Visualization of Critical Points of 2D Scalar Fields for Parametric and Nonparametric Probabilistic Models{{% /pubtitle %}}.
+{{% pubtitle %}}[Uncertainty Visualization of Critical Points of 2D Scalar Fields for Parametric and Nonparametric Probabilistic Models](https://1drv.ms/b/s!Aub-LzOy6dCviukwdJqdmg66TYBJVw?e=fjc3Lf){{% /pubtitle %}}.
 Tushar M. Athawale, Zhe Wang, David Pugmire, **Kenneth Moreland**, Qian Gong, Scott Klasky, Chris R. Johnson, and Paul Rosen.
 _IEEE Transactions on Visualization and Computer Graphics_, 1, 31(1):108–118, January 2025.
 [doi:10.1109/TVCG.2024.3456393](https://dx.doi.org/10.1109/TVCG.2024.3456393).
 
-{{% pubtitle %}}Visualization at exascale: Making it all work with VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[Visualization at exascale: Making it all work with VTK-m](https://1drv.ms/b/s!Aub-LzOy6dCvith_zp2BwGnUgsAhYQ?e=b2PSyK){{% /pubtitle %}}.
 **Kenneth Moreland**, Tushar M. Athawale, Vicente Bolea, Mark Bolstad, Eric Brugger, Hank Childs, Axel Huebl, Li-Ta Lo, Berk Geveci, Nicole Marsaglia, Sujin Philip, David Pugmire, Silvio Rizzi, Zhe Wang, and Abhishek Yenpure.
 _The International Journal of High Performance Computing Applications_, 5, 38(5):508–526, August 2024.
 [doi:10.1177/10943420241270969](https://dx.doi.org/10.1177/10943420241270969).
 
-{{% pubtitle %}}A New Default Colormap for ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[A New Default Colormap for ParaView](https://1drv.ms/b/s!Aub-LzOy6dCvitkA32iJZCpkRqay2g?e=Iysa1r){{% /pubtitle %}}.
 Francesca Samsel, W. Alan Scott, and **Kenneth Moreland**.
 _IEEE Computer Graphics and Applications_, 4, 44(4):150–160, July 2024.
 [doi:10.1109/MCG.2024.3383137](https://dx.doi.org/10.1109/MCG.2024.3383137).
 
-{{% pubtitle %}}Minimizing Development Costs for Efficient Many-Core Visualization Using MCD<sup>3</sup>{{% /pubtitle %}}.
+{{% pubtitle %}}[Minimizing Development Costs for Efficient Many-Core Visualization Using MCD<sup>3</sup>](https://1drv.ms/b/s!Aub-LzOy6dCvhot_Mo_dMI2h5AWWhQ?e=htBrzJ){{% /pubtitle %}}.
 **Kenneth Moreland**, Robert Maynard, David Pugmire, Abhishek Yenpure, Allison Vacanti, Matthew Larsen, and Hank Childs.
 _Parallel Computing_, 102834, 108(102834), December 2021.
 [doi:10.1016/j.parco.2021.102834](https://dx.doi.org/10.1016/j.parco.2021.102834).
@@ -71,7 +71,7 @@ _IEEE Computer Graphics and Applications_, 2, 36(2):5–9, March/April 2016.
 In _ISC High Performance_, pages 488–496, June 2015.
 [doi:10.1007/978-3-319-20119-1_34](https://dx.doi.org/10.1007/978-3-319-20119-1_34).
 
-{{% pubtitle %}}Evaluation of Methods to Integrate Analysis into a Large-Scale Shock Physics Code{{% /pubtitle %}}.
+{{% pubtitle %}}[Evaluation of Methods to Integrate Analysis into a Large-Scale Shock Physics Code](https://dl.acm.org/doi/10.1145/2597652.2597668?cid=81100570201){{% /pubtitle %}}.
 Ron A. Oldfield, **Kenneth Moreland**, Nathan Fabian, and David Rogers.
 In _Proceedings of the 28th ACM international Conference on Supercomputing (ICS '14)_, pages 83–92, June 2014.
 [doi:10.1145/2597652.2597668](https://dx.doi.org/10.1145/2597652.2597668).
