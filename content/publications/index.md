@@ -123,42 +123,42 @@ PhD thesis, University of New Mexico, July 2004.
 
 ## Symposium, Workshop, and Invited Papers
 
-{{% pubtitle %}}FunM<sup>2</sup>C: A Filter for Uncertainty Visualization of Multivariate Data on Multi-Core Devices{{% /pubtitle %}}.
+{{% pubtitle %}}[FunM<sup>2</sup>C: A Filter for Uncertainty Visualization of Multivariate Data on Multi-Core Devices](https://1drv.ms/b/s!Aub-LzOy6dCviukuIwhlsuGE2zYYDA?e=NyaWVZ){{% /pubtitle %}}.
 Gautam Hari, Nrushad Joshi, Zhe Wang, Qian Gong, Dave Pugmire, **Kenneth Moreland**, Chris R. Johnson, Scott Klasky, Norbert Podhorszki, and Tushar M. Athawale.
 In _Proceedings IEEE Workshop on Uncertainty Visualization_, pages 43–47, October 2024.
 [doi:10.1109/UncertaintyVisualization63963.2024.00010](https://dx.doi.org/10.1109/UncertaintyVisualization63963.2024.00010).
 
-{{% pubtitle %}}An Entropy-Based Test and Development Framework for Uncertainty Modeling in Level-Set Visualizations{{% /pubtitle %}}.
+{{% pubtitle %}}[An Entropy-Based Test and Development Framework for Uncertainty Modeling in Level-Set Visualizations](https://1drv.ms/b/s!Aub-LzOy6dCviuktKEo_4PooYDe9_g?e=fTqo0t){{% /pubtitle %}}.
 Robert Sisneros, Tushar Athawale, David Pugmire, and **Kenneth Moreland**.
 In _Proceedings IEEE Workshop on Uncertainty Visualization_, pages 78–83, October 2024.
 [doi:10.1109/UncertaintyVisualization63963.2024.00015](https://dx.doi.org/10.1109/UncertaintyVisualization63963.2024.00015).
 
-{{% pubtitle %}}A Personalized AI Assistant For Intuition-Driven Visual Explorations{{% /pubtitle %}}.
+{{% pubtitle %}}[A Personalized AI Assistant For Intuition-Driven Visual Explorations](https://1drv.ms/b/s!Aub-LzOy6dCviukrSrjXhf7ThZQHlA?e=KGgiMV){{% /pubtitle %}}.
 James Hammer, Tanner Hobson, David Pugmire, Scott Klasky, **Kenneth Moreland**, and Jian Huang.
 In _IEEE 20th International Conference on e-Science (e-Science)_, September 2024.
 [doi:10.1109/e-Science62913.2024.10678681](https://dx.doi.org/10.1109/e-Science62913.2024.10678681).
 
-{{% pubtitle %}}Top Research Challenges and Opportunities for Near Real-Time Extreme-Scale Visualization of Scientific Data{{% /pubtitle %}}.
+{{% pubtitle %}}[Top Research Challenges and Opportunities for Near Real-Time Extreme-Scale Visualization of Scientific Data](https://1drv.ms/b/s!Aub-LzOy6dCviukvgCdO_4lS2hAwhg?e=qN5fTP){{% /pubtitle %}}.
 David Pugmire, **Kenneth Moreland**, Tushar M. Athawale, James Hammer, and Jian Huang.
 In _Proceedings IEEE 20th International Conference on e-Science_, September 2024.
 [doi:10.1109/e-Science62913.2024.10678727](https://dx.doi.org/10.1109/e-Science62913.2024.10678727).
 
-{{% pubtitle %}}Performance Improvements of Poincaré Analysis for Exascale Fusion Simulations{{% /pubtitle %}}.
+{{% pubtitle %}}[Performance Improvements of Poincaré Analysis for Exascale Fusion Simulations](https://1drv.ms/b/s!Aub-LzOy6dCvisxW5IaWdlQHVpWGLQ?e=6viZ6e){{% /pubtitle %}}.
 David Pugmire, Jong Y. Choi, Scott Klasky, **Kenneth Moreland**, Eric Suchyta, Tushar M. Athawale, Zhe Wang, Choong-Seock Chang, Seung-Hoe Ku, and Robert Hager.
 In _VisGap - The Gap between Visualization Research and Visualization Software_, May 2024.
 [doi:10.2312/visgap.20241120](https://dx.doi.org/10.2312/visgap.20241120).
 
-{{% pubtitle %}}An Accelerated Clip Algorithm for Unstructured Meshes: A Batch-Driven Approach{{% /pubtitle %}}.
+{{% pubtitle %}}[An Accelerated Clip Algorithm for Unstructured Meshes: A Batch-Driven Approach](https://1drv.ms/b/s!Aub-LzOy6dCvisxNiZWBBq7YTgl_8A?e=nklSr5){{% /pubtitle %}}.
 Spiros Tsalikis, Will Schroeder, Daniel Szafir, and **Kenneth Moreland**.
 In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, May 2024.
 [doi:10.2312/pgv.20241130](https://dx.doi.org/10.2312/pgv.20241130).
 
-{{% pubtitle %}}FunMC<sup>2</sup>: A Filter for Uncertainty Visualization of Marching Cubes on Multi-Core Devices{{% /pubtitle %}}.
+{{% pubtitle %}}[FunMC<sup>2</sup>: A Filter for Uncertainty Visualization of Marching Cubes on Multi-Core Devices](https://1drv.ms/b/c/afd0e9b2332ffee6/Eeb-LzOy6dAggK9VOgIAAAABccsNb8aiFSF86bnwz9Z4bg?e=wfV3J2){{% /pubtitle %}}.
 Zhe Wang, Tushar M. Athawale, **Kenneth Moreland**, Jieyang Chen, Chris R. Johnson, and David Pugmire.
 In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, May 2023.
 [doi:10.2312/pgv.20231081](https://dx.doi.org/10.2312/pgv.20231081).
 
-{{% pubtitle %}}Leveraging Production Visualization Tools In Situ{{% /pubtitle %}}.
+{{% pubtitle %}}[Leveraging Production Visualization Tools In Situ](https://1drv.ms/b/s!Aub-LzOy6dCvh6J7d3oR-fMiNPIzRw?e=Zg6N2z){{% /pubtitle %}}.
 **Kenneth Moreland**, Andrew C. Bauer, Berk Geveci, Patrick O'Leary, and Brad Whitlock.
 In _In Situ Visualization for Computational Science_, Springer, pages 205–231, 2022.
 [doi:10.1007/978-3-030-81627-8_10](https://dx.doi.org/10.1007/978-3-030-81627-8_10).
@@ -205,7 +205,7 @@ In _Proceedings of the IEEE Symposium on Large Data Analysis and Visualization (
 In _Proceedings of Human Vision and Electronic Imaging (HVEI)_, February 2016.
 [doi:10.2352/ISSN.2470-1173.2016.16.HVEI-133](https://dx.doi.org/10.2352/ISSN.2470-1173.2016.16.HVEI-133).
 
-{{% pubtitle %}}ParaView Catalyst: Enabling In Situ Data Analysis and Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[ParaView Catalyst: Enabling In Situ Data Analysis and Visualization](https://dl.acm.org/doi/10.1145/2828612.2828624?cid=81100570201){{% /pubtitle %}}.
 Utkarsh Ayachit, Andrew Bauer, Berk Geveci, Patrick O'Leary, **Kenneth Moreland**, Nathan Fabian, and Jeffrey Mauldin.
 In _Proceedings of the First Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization (ISAV 2015)_, pages 25–29, November 2015.
 [doi:10.1145/2828612.2828624](https://dx.doi.org/10.1145/2828612.2828624).
@@ -220,7 +220,7 @@ Robert Miller, **Kenneth Moreland**, and Kwan-Liu Ma.
 In _Eurographics Symposium on Parallel Graphics and Visualization_, June 2014.
 [doi:10.2312/pgv.20141083](https://dx.doi.org/10.2312/pgv.20141083).
 
-{{% pubtitle %}}A Classification of Scientific Visualization Algorithms for Massive Threading{{% /pubtitle %}}.
+{{% pubtitle %}}[A Classification of Scientific Visualization Algorithms for Massive Threading](https://dl.acm.org/doi/10.1145/2535571.2535591?cid=81100570201){{% /pubtitle %}}.
 **Kenneth Moreland**, Berk Geveci, Kwan-Liu Ma, and Robert Maynard.
 In _Proceedings of Ultrascale Visualization Workshop_, November 2013.
 [doi:10.1145/2535571.2535591](https://dx.doi.org/10.1145/2535571.2535591).
@@ -245,9 +245,10 @@ In _2012 SC Companion (Petascale Data Analytics: Challenges and Opportunities)_,
 In _Proceedings of the IEEE Symposium on Large-Scale Data Analysis and Visualization_, pages 91–95, October 2012.
 [doi:10.1109/LDAV.2012.6378981](https://dx.doi.org/10.1109/LDAV.2012.6378981).
 
-{{% pubtitle %}}Examples of In Transit Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[Examples of In Transit Visualization](https://dl.acm.org/doi/10.1145/2110205.2110207?cid=81100570201){{% /pubtitle %}}.
 **Kenneth Moreland**, Ron Oldfield, Pat Marion, Sebastien Jourdain, Norbert Podhorszki, Venkatram Vishwanath, Nathan Fabian, Ciprian Docan, Manish Parashar, Mark Hereld, Michael E. Papka, and Scott Klasky.
 In _Petascale Data Analytics: Challenges and Opportunities (PDAC-11)_, November 2011.
+[doi:10.1145/2110205.2110207](https://dx.doi.org/10.1145/2110205.2110207).
 
 {{% pubtitle %}}[The ParaView Coprocessing Library: A Scalable, General Purpose In Situ Visualization Library](/documents/InSituLDAV2011.pdf){{% /pubtitle %}}.
 Nathan Fabian, **Kenneth Moreland**, David Thompson, Andrew C. Bauer, Pat Marion, Berk Geveci, Michel Rasquin, and Kenneth E. Jansen.
@@ -285,10 +286,12 @@ _Journal of Physics: Conference Series_, 012088, 78(012088), June 2007.
 {{% pubtitle %}}[Parallel Unstructured Volume Rendering in ParaView](/documents/ParallelVolRen.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, Lisa Avila, and Lee Ann Fisk.
 In _Visualization and Data Analysis 2007, Proceedings of SPIE-IS&T Electronic Imaging_, pages 64950F-1–12, January 2007.
+[doi:10.1117/12.704533](https://dx.doi.org/10.1117/12.704533).
 
 {{% pubtitle %}}[Remote Large Data Visualization in the ParaView Framework](/documents/EGPGV2006Paper.pdf){{% /pubtitle %}}.
 Andy Cedilnik, Berk Geveci, **Kenneth Moreland**, James Ahrens, and Jean Farve.
 In _Eurographics Parallel Graphics and Visualization_, pages 163–170, May 2006.
+[doi:10.2312/EGPGV/EGPGV06/163-170](https://dx.doi.org/10.2312/EGPGV/EGPGV06/163-170).
 
 {{% pubtitle %}}[A Fast High Accuracy Volume Renderer for Unstructured Data](/partial-pre-integration/){{% /pubtitle %}}.
 **Kenneth Moreland** and Edward Angel.
@@ -298,6 +301,7 @@ In _IEEE Symposium on Volume Visualization and Graphics_, pages 9–16, October 
 {{% pubtitle %}}[From Cluster to Wall with VTK](/documents/vtk_c2w.pdf){{% /pubtitle %}}.
 **Kenneth Moreland** and David Thompson.
 In _Proceedings of IEEE Symposium on Parallel and Large-Data Visualization and Graphics_, pages 25–31, October 2003.
+[doi:10.1109/PVGS.2003.1249039](https://dx.doi.org/10.1109/PVGS.2003.1249039).
 
 {{% pubtitle %}}[The FFT on a GPU](/fftgpu/){{% /pubtitle %}}.
 **Kenneth Moreland** and Edward Angel.
