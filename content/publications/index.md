@@ -324,6 +324,10 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 
 ## Technical Reports and other Non Peer Reviewed
 
+{{% pubtitle %}}New Default Colormap and Background in the next version of ParaView{{% /pubtitle %}}.
+Francesca Samsel, **Ken Moreland**, W. Alan Scott, Spiros Tsalikis, and Cory Quammen.
+_Kitware Source_, October 2024.
+
 {{% pubtitle %}}The VTK-m User's Guide, VTK-m version 2.2{{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2024/3443, Oak Ridge National Laboratory, July 2024.
