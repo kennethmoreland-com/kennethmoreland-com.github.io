@@ -20,7 +20,7 @@ layers = [
 ]
 
 primary_links = [
-  'homeurl',
+  'homeurl', 'url',
 ]
 secondary_links = [
   'poster',

@@ -32,7 +32,7 @@ _IEEE Computer Graphics and Applications_, 4, 44(4):150–160, July 2024.
 _Parallel Computing_, 102834, 108(102834), December 2021.
 [doi:10.1016/j.parco.2021.102834](https://dx.doi.org/10.1016/j.parco.2021.102834).
 
-{{% pubtitle %}}Scientific Visualization: New Techniques in Production Software{{% /pubtitle %}}.
+{{% pubtitle %}}[Scientific Visualization: New Techniques in Production Software](https://sinews.siam.org/Details-Page/scientific-visualization-new-techniques-in-production-software){{% /pubtitle %}}.
 **Kenneth Moreland** and Hank Childs.
 _SIAM News_, November 2020.
 
@@ -324,7 +324,7 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 
 ## Technical Reports and other Non Peer Reviewed
 
-{{% pubtitle %}}New Default Colormap and Background in the next version of ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[New Default Colormap and Background in the next version of ParaView](https://www.kitware.com/new-default-colormap-and-background-in-next-paraview-release/){{% /pubtitle %}}.
 Francesca Samsel, **Ken Moreland**, W. Alan Scott, Spiros Tsalikis, and Cory Quammen.
 _Kitware Source_, October 2024.
 
@@ -340,7 +340,7 @@ Technical Report ORNL/TM-2023/3182, Oak Ridge National Laboratory, November 2023
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2023/2863, Oak Ridge National Laboratory, February 2023.
 
-{{% pubtitle %}}VTK-m Accelerated Filters in VTK and ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Accelerated Filters in VTK and ParaView](https://www.kitware.com/vtk-m-accelerated-filters-in-vtk-and-paraview/){{% /pubtitle %}}.
 Sujin Philip, **Kenneth Moreland**, and Robert Maynard.
 _Kitware Source_, 2023.
 
@@ -398,16 +398,16 @@ Technical Report SAND2018-2780O, Sandia National Laboratories, 2018.
 **Kenneth Moreland** and Chuck Atkins.
 Technical Report Sandia National Laboratories, 2018.
 
-{{% pubtitle %}}Advanced Scientific Computing Research Exascale Requirements Review{{% /pubtitle %}}.
+{{% pubtitle %}}[Advanced Scientific Computing Research Exascale Requirements Review](https://www.osti.gov/biblio/1375638){{% /pubtitle %}}.
 Jeffrey Vetter, Ann Almgren, Phil DeMar, Katherine Riley, Katie Antypas, Deborah Bard, Richard Coffey, Eli Dart, Sudip Dosanjh, Richard Gerber, James Hack, Inder Monga, Michael E. Papka, Lauren Rotman, Tjerk Straatsma, Jack Wells, David E. Bernholdt, Wes Bethel, George Bosilca, Frank Cappello, Todd Gamblin, Salman Habib, Judy Hill, Jeffrey K. Hollingsworth, Lois Curfman McInnes, Kathryn Mohror, Shirley Moore, **Ken Moreland**, Rob Roser, Sameer Shende, Galen Shipman, and Samuel Williams.
 Technical Report An Office of Science review sponsored by Advanced Scientific Computing Research, September 2016.
 [doi:10.2172/1375638](https://dx.doi.org/10.2172/1375638).
 
-{{% pubtitle %}}The Future of Scientific Workflows{{% /pubtitle %}}.
+{{% pubtitle %}}[The Future of Scientific Workflows](http://science.energy.gov/ /media/ascr/pdf/programdocuments/docs/workflows_final_report.pdf){{% /pubtitle %}}.
 Ewa Dellman, Tom Peterka, _et al_.
 _Report of the DOE NGNS/CS Scientific Workflows Workshop_, April 2015.
 
-{{% pubtitle %}}The ParaView Guide: A Parallel Visualization Application{{% /pubtitle %}}.
+{{% pubtitle %}}[The ParaView Guide: A Parallel Visualization Application](http://www.paraview.org){{% /pubtitle %}}.
 Utkarsh Ayachit.
 Kitware Inc., January 2015.
 (contributions).
@@ -530,240 +530,240 @@ _Journal of Physics: Conference Series_, 012096, 125(012096), 2008.
 
 ## Presentations
 
-{{% pubtitle %}}Viskores Update{{% /pubtitle %}}.
+{{% pubtitle %}}[Viskores Update](https://1drv.ms/p/c/afd0e9b2332ffee6/EVQ97C_Pt_pLpnxp5Ura7QcBMoNWOckG0ud0kkTjekcFWg?e=0RJgXb){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _HPSF Conference_, May 5, 2025.
 
-{{% pubtitle %}}Parallelize Over Data Particle Advection: Participation, Ping Pong Particles, and Overhead{{% /pubtitle %}}.
+{{% pubtitle %}}[Parallelize Over Data Particle Advection: Participation, Ping Pong Particles, and Overhead](https://1drv.ms/p/c/afd0e9b2332ffee6/ES9A8dJDwpFKoIjh6b8prd8BgUB1DVTWeuh5XQrBdO1TcA?e=KflQ8H){{% /pubtitle %}}.
 Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, and David Pugmire.
 _DOE Computer Graphics Forum_, May 1, 2025.
 
-{{% pubtitle %}}Viskores Update{{% /pubtitle %}}.
+{{% pubtitle %}}[Viskores Update](https://1drv.ms/p/c/afd0e9b2332ffee6/Ef5UjR_CLVJOtuQyUoyUNuABN6ReVyXWCvuvyU8MEH4zng?e=Svaqug){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 29, 2025.
 
-{{% pubtitle %}}Compression Support with ADIOS{{% /pubtitle %}}.
+{{% pubtitle %}}[Compression Support with ADIOS](https://1drv.ms/p/s!Aub-LzOy6dCviuksGbOKa9bqEc-SwQ?e=ppsvDX){{% /pubtitle %}}.
 **Kenneth Moreland**, Qian Gong, and Norbert Podhorszki.
 _Data-driven Plasma Science and Engineering Workshop_, February 27, 2025.
 
-{{% pubtitle %}}Development of VTK-m During ECP{{% /pubtitle %}}.
+{{% pubtitle %}}[Development of VTK-m During ECP](https://1drv.ms/p/s!Aub-LzOy6dCviuhrlJQTY3K2BwAPBw?e=BpDkLj){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _HPC Best Practices Webinar_, September 25, 2024.
 
-{{% pubtitle %}}ParaView on Frontier Training{{% /pubtitle %}}.
+{{% pubtitle %}}[ParaView on Frontier Training](https://kmorel.gitlab.io/pv-tutorial-olcf-2024/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 August 29, 2024.
 
-{{% pubtitle %}}Using VTK-m in ParaView and Catalyst{{% /pubtitle %}}.
+{{% pubtitle %}}[Using VTK-m in ParaView and Catalyst](https://1drv.ms/p/s!Aub-LzOy6dCvitQHYKnbGNq-ncbn-A?e=hDTp6M){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ParaView and Catalyst CASS Community BOF_, June 12, 2024.
 
-{{% pubtitle %}}Data Management, Workflow, and Visualization Solutions at ORNL{{% /pubtitle %}}.
+{{% pubtitle %}}[Data Management, Workflow, and Visualization Solutions at ORNL](https://1drv.ms/p/s!Aub-LzOy6dCvitkBVVoVlP_LUB-o8g?e=6SFldb){{% /pubtitle %}}.
 **Kenneth Moreland**, Scott Klasky, Norbert Podhorszki, and Qian Gong.
 _Software for the NASA Science Mission Directorate Workshop_, May 8, 2024.
 
-{{% pubtitle %}}VTK-m Update{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCvisV16t4b00pLldXmQw?e=PIFrU2){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 23, 2024.
 
-{{% pubtitle %}}Enabling Visualization at the Exascale with VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[Enabling Visualization at the Exascale with VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvipBVJCFlsNT7fNRrOQ?e=Wg0Kxv){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 23, 2023.
 Keynote.
 
-{{% pubtitle %}}VTK-m: Visualization for the Exascale Era and Beyond{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m: Visualization for the Exascale Era and Beyond](https://1drv.ms/p/s!Aub-LzOy6dCvitkBVVoVlP_LUB-o8g?e=WzUcRT){{% /pubtitle %}}.
 Mark Bolstad, **Kenneth Moreland**, David Pugmire, David Rogers, Li-Ta Lo, Berk Geveci, Hank Childs, and Silvio Rizzi.
 _ACM SIGGRAPH 2023 Talks_, August 2023.
 
-{{% pubtitle %}}Color: What It Is and How to Use It to Show Data{{% /pubtitle %}}.
+{{% pubtitle %}}[Color: What It Is and How to Use It to Show Data](https://1drv.ms/p/s!Aub-LzOy6dCviPRUkpcy7hVBkJXzJQ){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _LANL Data Science Summer School Seminar_, Los Alamost National Laboratory, July 18, 2023.
 
-{{% pubtitle %}}VTK-m Update{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCviPJUJ9wyUeAhY4YfTQ?e=b0smdB){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 26, 2023.
 
-{{% pubtitle %}}DOE Visualization Tools and Capabilities{{% /pubtitle %}}.
+{{% pubtitle %}}[DOE Visualization Tools and Capabilities](https://1drv.ms/p/s!Aub-LzOy6dCviNVAqhkdKk5hX4r-mg?e=E5nMfy){{% /pubtitle %}}.
 **Kenneth Moreland** and David Pugmire.
 _PSI2 SciDAC All-Hands_, February 22, 2023.
 
-{{% pubtitle %}}Performance Portability Pre-ECP and Post-ECP – VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[Performance Portability Pre-ECP and Post-ECP – VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCviLoW5-F6rNazErmTfg?e=an5xSP){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ECP Annual Meeting_, January 19, 2023.
 
-{{% pubtitle %}}VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors](https://1drv.ms/p/s!Aub-LzOy6dCviOlOfPbdCVC8Nf25Jw?e=zojjY0){{% /pubtitle %}}.
 Tushar M. Athawale, **Kenneth Moreland**, David Pugmire, Silvio Rizzi, and Mark Bolstad.
 _IEEE VIS Tutorials_, October 17, 2022.
 
-{{% pubtitle %}}Scientific Visualization on Supercomputers{{% /pubtitle %}}.
+{{% pubtitle %}}[Scientific Visualization on Supercomputers](https://1drv.ms/p/s!Aub-LzOy6dCviOlNV8N-Cqx0-RS3Bg?e=qwBORj){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _D&AI Section All Hands Meeting_, Oak Ridge National Laboratory, September 21, 2022.
 
-{{% pubtitle %}}ParaView OLCF Tutorial{{% /pubtitle %}}.
+{{% pubtitle %}}[ParaView OLCF Tutorial](https://kmorel.gitlab.io/pv-tutorial-olcf-2022/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 September 15, 2022.
 
-{{% pubtitle %}}VTK-m Update{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCviIR0ZidK_JeMfTVOyw?e=63cKlK){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, August 31, 2022.
 
-{{% pubtitle %}}ECP Data Management, Data Analytics, and Visualization Overview: VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[ECP Data Management, Data Analytics, and Visualization Overview: VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvh5IG-Cx15J4uVNDcAg?e=ZPEUka){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ECP Annual Meeting_, May 2, 2022.
 
-{{% pubtitle %}}VTK-m: Accelerating Visualization on Massively Threaded Processors{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m: Accelerating Visualization on Massively Threaded Processors](https://1drv.ms/p/s!Aub-LzOy6dCviOo-P_bI8ZWDEKUz-g?e=e83r0v){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _SCI Institute Visualization Seminar_, University of Utah, February 2, 2022.
 
-{{% pubtitle %}}VTK-m: What it is, Why we need it, and How to use it{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m: What it is, Why we need it, and How to use it](https://1drv.ms/p/s!Aub-LzOy6dCvhp1MFgmnGqzVHbV24g?e=9JAodi){{% /pubtitle %}}.
 **Kenneth Moreland**.
 November 2021.
 
-{{% pubtitle %}}Color: What it is and How to Use It to Show Data{{% /pubtitle %}}.
+{{% pubtitle %}}[Color: What it is and How to Use It to Show Data](https://1drv.ms/p/s!Aub-LzOy6dCvhoQHR5nfaoY9wOgSfQ?e=JdZhlw){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _VISTA Webinar_, Oak Ridge National Laboratory, September 9, 2021.
 
-{{% pubtitle %}}Enabling Visualization on Exascale Accelerators with VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[Enabling Visualization on Exascale Accelerators with VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvheMranvJSnqLcnb1dg?e=cZzn1Q){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _RAPIDS2-DU Monthly Meeting_, July 14, 2021.
 
-{{% pubtitle %}}VTK-m Update{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCvhOI5UL29Y8dLTJg9NQ?e=y8AdQw){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 28, 2021.
 
-{{% pubtitle %}}ECP Data Management, Data Analytics, and Visualization Overview: VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[ECP Data Management, Data Analytics, and Visualization Overview: VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvhNd8-zpGpI_RvP9K2Q?e=O4FLeV){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ECP Annual Meeting_, March 30, 2021.
 
-{{% pubtitle %}}A Winding Road to Exascale Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[A Winding Road to Exascale Visualization](https://1drv.ms/p/s!Aub-LzOy6dCvgwayV_oRUZSpPj4O?e=2pz9NN){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Oak Ridge National Laboratories_, February 2, 2021.
 
-{{% pubtitle %}}What's New in ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[What's New in ParaView](https://1drv.ms/p/s!Aub-LzOy6dCvgXf-Zjdb2asJaFEQ?e=UA4gp1){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 28, 2020.
 
-{{% pubtitle %}}VTK-m Update{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCvgXjsYQsi3j1cEiIw?e=5hNRVn){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 28, 2020.
 
-{{% pubtitle %}}In Situ Visualization and Analysis with Ascent: Using VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[In Situ Visualization and Analysis with Ascent: Using VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvgXSr3iH-D3Qzbbxa?e=zIbGZ6){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ECP Annual Meeting Tutorials_, February 4, 2020.
 
-{{% pubtitle %}}VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors](https://1drv.ms/p/s!Aub-LzOy6dCvgXVJeRdNBnLJVRaw?e=rZC3N7){{% /pubtitle %}}.
 Hank Childs, **Kenneth Moreland**, David Pugmire, and Robert Maynard.
 _IEEE VIS Tutorials_, October 2019.
 
-{{% pubtitle %}}Vis Capabilities at Sandia{{% /pubtitle %}}.
+{{% pubtitle %}}[Vis Capabilities at Sandia](https://1drv.ms/p/s!Aub-LzOy6dCvgWpybxhV7gFwqc1z){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Informal Review for 1540 Production Codes_, Sandia National Laboratories, June 10, 2019.
 
-{{% pubtitle %}}What's New in ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[What's New in ParaView](https://1drv.ms/p/s!Aub-LzOy6dCvgWe28YUPGXLEuFFj){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 23, 2019.
 
-{{% pubtitle %}}VTK-m Update{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCvgWkftgnO22XKEtz7){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 23, 2019.
 
-{{% pubtitle %}}In Situ Visualization and Analysis with Ascent: Using VTK-m{{% /pubtitle %}}.
+{{% pubtitle %}}[In Situ Visualization and Analysis with Ascent: Using VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvgWvTEnJJwMAK9R-1){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ECP Annual Meeting Tutorials_, January 17, 2019.
 
-{{% pubtitle %}}Building Better Plots{{% /pubtitle %}}.
+{{% pubtitle %}}[Building Better Plots](https://www.drmoron.org/posts/better-plots/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _CCR Summer Seminar Talks_, Sandia National Laboratories, July 17, 2018.
 
-{{% pubtitle %}}A Brief History of Interactive Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[A Brief History of Interactive Visualization](https://1drv.ms/p/s!Aub-LzOy6dCvgVNp0nxAkyxldjLo){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _University of Stuttgart Colloquium_, June 29, 2018.
 
-{{% pubtitle %}}Preparations for Exascale Visualization at DOE{{% /pubtitle %}}.
+{{% pubtitle %}}[Preparations for Exascale Visualization at DOE](https://1drv.ms/p/s!Aub-LzOy6dCvgVVXlf6XlsXRGrIo){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ISC High Performance_, June 25, 2018.
 
-{{% pubtitle %}}What's New in ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[What's New in ParaView](https://1drv.ms/p/s!Aub-LzOy6dCvgUYStCCuENhjLfLm){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 24, 2018.
 
-{{% pubtitle %}}VTK-m Update{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCvgUU2GaBXj4gVqFKr){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 24, 2018.
 
-{{% pubtitle %}}The Difficulties and Indispensability of In Situ Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[The Difficulties and Indispensability of In Situ Visualization](https://1drv.ms/p/s!Aub-LzOy6dCvgWZ6TXWVmYL1nJeK){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Applied Computer Science (ACS) Technical Exchange Meeting_, February 13, 2018.
 
-{{% pubtitle %}}VTK-m: Visualization on Modern Processors{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m: Visualization on Modern Processors](https://1drv.ms/p/s!Aub-LzOy6dCvgTjX2H8uGPDQHEG5){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Kitware Booth, SC17_, November 15, 2017.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, David E. DeMarle, Joe Insley, John Patchett, and Jon Woodring.
 _Supercomputing Tutorials_, November 14, 2017.
 
-{{% pubtitle %}}Why You Don't Want to do In Situ Visualization, and Why You Have To{{% /pubtitle %}}.
+{{% pubtitle %}}[Why You Don't Want to do In Situ Visualization, and Why You Have To](https://1drv.ms/p/s!Aub-LzOy6dCvgTIbBVhpp53qkdJG){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Computational Science Seminar Series_, Sandia National Laboratories, October 31, 2017.
 
-{{% pubtitle %}}High Performance Visualization in the Many-Core Era{{% /pubtitle %}}.
+{{% pubtitle %}}[High Performance Visualization in the Many-Core Era](https://1drv.ms/p/s!Aub-LzOy6dCvgS6A3GgQcv6cAfMw){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Computing@PNNL Seminar_, Pacific Northwest National Laboratory, August 11, 2017.
 
-{{% pubtitle %}}Why You Don't Want to do In Situ Visualization, and Why You Have To{{% /pubtitle %}}.
+{{% pubtitle %}}[Why You Don't Want to do In Situ Visualization, and Why You Have To](https://1drv.ms/p/s!Aub-LzOy6dCvgSrKpbaOUHJlIoXp){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ISC Workshop on In Situ Visualization_, June 22, 2017.
 
-{{% pubtitle %}}The Many Faces and Solutions of In Situ Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[The Many Faces and Solutions of In Situ Visualization](https://1drv.ms/p/s!Aub-LzOy6dCvgSmcXNUkd-uYtz_V){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _ISC Workshop on Visualization at Scale_, June 22, 2017.
 
-{{% pubtitle %}}Building Better Plots{{% /pubtitle %}}.
+{{% pubtitle %}}[Building Better Plots](https://www.drmoron.org/posts/better-plots/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Sandia Post-Doc Workshop_, Sandia National Laboratories, February 20, 2017.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, David E. DeMarle, Joe Insley, Jonathan Woodring, and John Patchett.
 _Supercomputing Tutorials_, November 14, 2016.
 
-{{% pubtitle %}}VTK-m: Building a Visualization Toolkit for Massively Threaded Architectures{{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m: Building a Visualization Toolkit for Massively Threaded Architectures](https://1drv.ms/p/s!Aub-LzOy6dCvgRZuvouZjXXs9rra){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Ultrascale Visualization Workshop_, November 17, 2015.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, David DeMarle, Li-Ta Lo, Joseph Insley, and Rich Cook.
 _Supercomputing Tutorials_, November 15, 2015.
 
-{{% pubtitle %}}High Performance Visualization in the Many-Core Era{{% /pubtitle %}}.
+{{% pubtitle %}}[High Performance Visualization in the Many-Core Era](https://1drv.ms/p/s!Aub-LzOy6dCvgRhJtXYaIG7lxKDV){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _LANL Information Science and Technology Seminar Series_, July 1, 2015.
 
-{{% pubtitle %}}Maintaining Interactivity in ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Maintaining Interactivity in ParaView](https://1drv.ms/p/s!Aub-LzOy6dCvgROiE632MffXSkks){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Kitware SC Booth_, November 19, 2014.
 
-{{% pubtitle %}}HPC Processing in ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[HPC Processing in ParaView](https://1drv.ms/p/s!Aub-LzOy6dCvgRIhCUkEvPPnELrw){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Kitware SC Booth_, November 18, 2014.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, David DeMarle, Li-Ta Lo, Joseph Insley, and Robert Maynard.
 _Supercomputing Tutorials_, November 16, 2014.
 
-{{% pubtitle %}}Using ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Using ParaView](https://1drv.ms/p/s!Aub-LzOy6dCvgRDiUH4pC1XsqoIl){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _NERSC Joint Facilities User Forum on Data-Intensive Computing_, June 18, 2014.
 
-{{% pubtitle %}}Dax: A Massively Threaded Visualization and Analysis Toolkit for Extreme Scale{{% /pubtitle %}}.
+{{% pubtitle %}}[Dax: A Massively Threaded Visualization and Analysis Toolkit for Extreme Scale](https://1drv.ms/p/c/afd0e9b2332ffee6/EWBT8YDJuPBJhpvfDgwuNgsBICw49bhNnZGXdmdbbkNhyg?e=mXGjj1){{% /pubtitle %}}.
 **Kenneth Moreland** and Robert Maynard.
 _GPU Technology Conference_, March 26, 2014.
 
-{{% pubtitle %}}Approaching Production In Situ Visualization for Extreme Scale Analysis{{% /pubtitle %}}.
+{{% pubtitle %}}[Approaching Production In Situ Visualization for Extreme Scale Analysis](https://1drv.ms/p/s!Aub-LzOy6dCvgRshoMQ-rdaKzCwn){{% /pubtitle %}}.
 **Kenneth Moreland**, Ron Oldfield, Nathan Fabian, Berk Geveci, Andrew Bauer, and David Lonie.
 _16th SIAM Conference on Parallel Processing for Scientific Computing_, February 21, 2014.
 
-{{% pubtitle %}}15 Years of Large-Scale Scientific Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[15 Years of Large-Scale Scientific Visualization](https://1drv.ms/p/s!Aub-LzOy6dCvgRk5dLE4–BMTEpX){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _University of Oregon Colloquium_, January 23, 2014.
 
@@ -771,11 +771,11 @@ _University of Oregon Colloquium_, January 23, 2014.
 **Kenneth Moreland**.
 _Sandia Center 2700 Lunch and Learn Program_, 2014.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, David DeMarle, and Li-Ta Lo.
 _Supercomputing Tutorials_, November 17, 2013.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, Nathan Fabian, Utkarsh Ayachit, and Robert Maynard.
 _Supercomputing Tutorial_, November 2012.
 
@@ -787,7 +787,7 @@ _15th SIAM Conference on Parallel Processing for Scientific Computing_, February
 **Kenneth Moreland**, Nathan Fabian, Scott Klasky, and Berk Geveci.
 _Workshop on Ultrascale Visualization_, November 13, 2011.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, Nathan Fabian, Jeffrey Mauldin, Andrew C. Bauer, Robert Maynard, and Scott Klasky.
 _Supercomputing Tutorials_, November 2011.
 
@@ -795,7 +795,7 @@ _Supercomputing Tutorials_, November 2011.
 **Kenneth Moreland**.
 _2nd International Conference on Computational Engineering_, October 6, 2011.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _SciDAC Tutorials_, July 2011.
 
@@ -803,11 +803,11 @@ _SciDAC Tutorials_, July 2011.
 **Kenneth Moreland**, Andrew Bauer, Pat Marion, and Nathan Fabian.
 _Supercomputing Tutorials_, November 2010.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland** and Andrew Bauer.
 _SciDAC Tutorials_, July 2010.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, John Greenfield, W. Alan Scott, Utkarsh Ayachit, and Berk Geveci.
 _Supercomputing Tutorials_, November 2009.
 
@@ -815,7 +815,7 @@ _Supercomputing Tutorials_, November 2009.
 **Kenenth Moreland** and David DeMarle.
 _IEEE Cluster Tutorials_, August 2009.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, John Greenfield, W. Alan Scott, Utkarsh Ayachit, Berk Geveci, and David DeMarle.
 _Supercomputing Tutorials_, November 2008.
 
@@ -823,7 +823,7 @@ _Supercomputing Tutorials_, November 2008.
 **Kenneth Moreland**, Utkarsh Ayachit, Timothy Shead, John Biddiscombe, and David Thompson.
 _IEEE Visualization Tutorials_, October 2008.
 
-{{% pubtitle %}}Large Scale Visualization with ParaView 3{{% /pubtitle %}}.
+{{% pubtitle %}}[Large Scale Visualization with ParaView 3](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland** and John Greenfield.
 _Supercomputing Tutorials_, November 2007.
 
@@ -835,7 +835,7 @@ _Supercomputing Tutorials_, November 2005.
 **Kenneth Moreland**.
 _Linux Cluster Institute Workshop_, October 1, 2004.
 
-{{% pubtitle %}}Big Data, Big Displays, and Cluster-Driven Interactive Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[Big Data, Big Displays, and Cluster-Driven Interactive Visualization](https://www.kennethmoreland.com/documents/VisWorkshop02.ppt){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _University of New Mexico Colloquium_, November 2002.
 
@@ -850,19 +850,19 @@ _Workshop on Commodity-Based Visualization Clusters_, October 27, 2002.
 
 ## Panels
 
-{{% pubtitle %}}Lessons Learned from Porting Codes to GPUs{{% /pubtitle %}}.
+{{% pubtitle %}}[Lessons Learned from Porting Codes to GPUs](https://1drv.ms/p/s!Aub-LzOy6dCviLoXRQKM9ScvERO3Mg?e=Ml7bYo){{% /pubtitle %}}.
 _ECP Annual Meeting_, January 19, 2023.
 
-{{% pubtitle %}}Technical Advances in the Era of Big Data Analysis and Visualization: Large-Scale Visualization on Exascale Hardware{{% /pubtitle %}}.
+{{% pubtitle %}}[Technical Advances in the Era of Big Data Analysis and Visualization: Large-Scale Visualization on Exascale Hardware](https://1drv.ms/p/s!Aub-LzOy6dCvgX9_B8QKqHlBmawv?e=zUz8dF){{% /pubtitle %}}.
 _Large Data Analysis and Visualization (LDAV)_, October 25, 2020.
 
-{{% pubtitle %}}How Ubiquitous Parallel Devices Affect Visualization{{% /pubtitle %}}.
+{{% pubtitle %}}[How Ubiquitous Parallel Devices Affect Visualization](https://1drv.ms/p/s!Aub-LzOy6dCvgXkX4dem9ePZlqNB?e=HGx71K){{% /pubtitle %}}.
 _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, May 25, 2020.
 
-{{% pubtitle %}}10-year Prognostication and How Do We Get There?{{% /pubtitle %}}.
+{{% pubtitle %}}[10-year Prognostication and How Do We Get There?](https://1drv.ms/p/s!Aub-LzOy6dCvgUfG1mrHzDH101BW){{% /pubtitle %}}.
 _DOE Computer Graphics Forum_, April 25, 2018.
 
-{{% pubtitle %}}Color Mapping in Vis: Perspectives on Optimal Solutions{{% /pubtitle %}}.
+{{% pubtitle %}}[Color Mapping in Vis: Perspectives on Optimal Solutions](https://1drv.ms/p/s!Aub-LzOy6dCvgWRculksAeq7VsGo){{% /pubtitle %}}.
 _IEEE Visualization_, October 2015.
 
 
