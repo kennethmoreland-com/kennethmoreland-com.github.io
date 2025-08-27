@@ -328,15 +328,15 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 Francesca Samsel, **Ken Moreland**, W. Alan Scott, Spiros Tsalikis, and Cory Quammen.
 _Kitware Source_, October 2024.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 2.2{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 2.2](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-2-2.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2024/3443, Oak Ridge National Laboratory, July 2024.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 2.1{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 2.1](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-2-1.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2023/3182, Oak Ridge National Laboratory, November 2023.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 2.0{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 2.0](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-2-0.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2023/2863, Oak Ridge National Laboratory, February 2023.
 
@@ -344,7 +344,7 @@ Technical Report ORNL/TM-2023/2863, Oak Ridge National Laboratory, February 2023
 Sujin Philip, **Kenneth Moreland**, and Robert Maynard.
 _Kitware Source_, 2023.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 1.9{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.9](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-9.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2022/2744, Oak Ridge National Laboratory, October 2022.
 
@@ -352,7 +352,7 @@ Technical Report ORNL/TM-2022/2744, Oak Ridge National Laboratory, October 2022.
 **Kenneth Moreland**, David Pugmire, Berk Geveci, Li-Ta Lo, Hank Childs, Mark Bolstad, Ruchi Shah, and Panruo Wu.
 Technical Report ORNL/LTR-2022/415, Oak Ridge National Laboratory, September 2022.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 1.8{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.8](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-8.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2022/2516, Oak Ridge National Laboratory, August 2022.
 
@@ -360,33 +360,33 @@ Technical Report ORNL/TM-2022/2516, Oak Ridge National Laboratory, August 2022.
 **Kenneth Moreland**, David Pugmire, and Jieyang Chen.
 Technical Report ORNL/LTR-2022/412, Oak Ridge National Laboratory, August 2022.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 1.7{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.7](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-7.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2021/2346, Oak Ridge National Laboratory, December 2021.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 1.6{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.6](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-6.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2021/2075, Oak Ridge National Laboratory, July 2021.
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 1.5{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.5](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-5.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report SAND 2019-12638 B, Sandia National Laboratories, October 2019.
 
-{{% pubtitle %}}XVis: Visualization for the Extreme-Scale Scientific Computation Ecosystem, Final Report{{% /pubtitle %}}.
+{{% pubtitle %}}[XVis: Visualization for the Extreme-Scale Scientific Computation Ecosystem, Final Report](https://1drv.ms/b/s!Aub-LzOy6dCvgXPWqhkN7hxOJu1r?e=ndO5mK){{% /pubtitle %}}.
 **Kenneth Moreland**, David Pugmire, David Rogers, Hank Childs, Kwan-Liu Ma, and Berk Geveci.
 Technical Report SAND 2019-9297, Sandia National Laboratories, August 2019.
 [doi:10.2172/1762947](https://dx.doi.org/10.2172/1762947).
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 1.4{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.4](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-4.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report SAND 2019-8008 B, Sandia National Laboratories, July 2019.
 
-{{% pubtitle %}}In Situ Visualization for Computational Science (Dagstuhl Seminar 18271){{% /pubtitle %}}.
+{{% pubtitle %}}[In Situ Visualization for Computational Science (Dagstuhl Seminar 18271)](http://drops.dagstuhl.de/opus/volltexte/2019/10171/){{% /pubtitle %}}.
 Janine C. Bennett, Hank Childs, Christoph Garth, Bernd Hentschel, _et al_.
 _Dagstuhl Reports_, 7, 8(7):1–43, 2019.
 [doi:10.4230/DagRep.8.7.1](https://dx.doi.org/10.4230/DagRep.8.7.1).
 
-{{% pubtitle %}}The VTK-m User's Guide, VTK-m version 1.3{{% /pubtitle %}}.
+{{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.3](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-3.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report SAND 2018-13465 B, Sandia National Laboratories, November 2018.
 
@@ -493,7 +493,7 @@ Technical Report SAND 2007-6307, Sandia National Laboratories, October 2007.
 David B. Karelitz, Elmer Chavez, V. Gregory Weirs, Timothy M. Shead, **Kenneth D. Moreland**, Thomas A. Brunner, and Timothy G. Trucano.
 Technical Report SAND 2007-6006, Sandia National Laboratories, September 2007.
 
-{{% pubtitle %}}Using Ghost Cells in Parallel Filters{{% /pubtitle %}}.
+{{% pubtitle %}}[Using Ghost Cells in Parallel Filters](https://www.osti.gov/biblio/1727360){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Kitware Source_, pages 3–4, July 2006.
 
