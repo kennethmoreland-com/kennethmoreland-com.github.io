@@ -448,13 +448,18 @@ In _2012 SC Companion (Proceedings of the Ultrascale Visualization Workshop)_, p
 Brian Barrett, Richard Barrett, James Brandt, Ron Brightwell, Matthew Curry, Nathan Fabian, Kurt Ferreira, Ann Gentile, Scott Hemmert, Suzanne Kelly, Ruth Klundt, James Laros III, Vitus Leung, Michael Levenhagen, Gerald Lofstead, **Ken Moreland**, Ron Oldfield, Kevin Pedretti, Arun Rodrigues, David Thompson, Tom Tucker, Lee Ward, John Van Dyke, Courtenay Vaughan, and Kyle Wheeler.
 Technical Report SAND 2012-1750, Sandia National Laboratories, March 2012.
 
-{{% pubtitle %}}IceT Users' Guide and Reference, Version 2.1{{% /pubtitle %}}.
+{{% pubtitle %}}[IceT Users' Guide and Reference, Version 2.1](/documents/IceTUsersGuide-2-1.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report SAND2011-5011, Sandia National Laboratories, August 2011.
 
 {{% pubtitle %}}[Scientific Discovery at the Exascale](/documents/Exascale-ASCR-Analysis.pdf){{% /pubtitle %}}.
 Sean Ahern, Arie Shoshani, Kwan-Liu Ma, _et al_.
 _Report from the DOE ASCR 2011 Workshop on Exascale Data Management, Analysis, and Visualization_, February 2011.
+
+{{% pubtitle %}}[IceT Users’ Guide and Reference, Version 2.0](https://www.osti.gov/biblio/1005031){{% /pubtitle %}}.
+**Kenneth Moreland**.
+Technical Report SAND2010-7451, Sandia National Laboratories, December 2010.
+[doi:10.2172/1005031](https://dx.doi.org/10.2172/1005031).
 
 {{% pubtitle %}}[Visualization on Supercomputing Platform Level II ASC Milestone (3537-1B) Results from Sandia](/documents/MilestoneFY10Sandia.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, Nathan Fabian, Pat Marion, and Berk Geveci.
