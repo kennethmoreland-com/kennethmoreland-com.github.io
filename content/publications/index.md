@@ -324,6 +324,10 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 
 ## Technical Reports and other Non Peer Reviewed
 
+{{% pubtitle %}}[The Viskores User's Guide, Release 1.0](https://viskores.readthedocs.io/en/v1.0.0/){{% /pubtitle %}}.
+**Kenneth Moreland**.
+Technical Report ORNL/TM-2025/4019, Oak Ridge National Laboratory, April 2025.
+
 {{% pubtitle %}}[New Default Colormap and Background in the next version of ParaView](https://www.kitware.com/new-default-colormap-and-background-in-next-paraview-release/){{% /pubtitle %}}.
 Francesca Samsel, **Ken Moreland**, W. Alan Scott, Spiros Tsalikis, and Cory Quammen.
 _Kitware Source_, October 2024.
@@ -508,6 +512,14 @@ _Kitware Source_, pages 3–4, July 2006.
 <div id="poster"></div>
 
 ## Posters
+
+{{% pubtitle %}}[Visualizing Imaging Data with NDIP and NOVA](https://1drv.ms/p/c/afd0e9b2332ffee6/EaFc7YBDLzhGiWG4MOjhCtYBYGNH23KAhGkvkMNgCZpQcA?e=N2AOXy){{% /pubtitle %}}.
+John Duggan, Dave Pugmire, **Ken Moreland**, Greg Watson, Sergey Yakubov, Greg Cage, and Andrew Ayres.
+In _Joint Nanoscience and Neutron Scattering User Meeting_, August 2025.
+
+{{% pubtitle %}}[NDIP and NOVA: Workflows and Interfaces for Neutron Scattering](https://1drv.ms/b/c/afd0e9b2332ffee6/ESt2n95vbcRAjodPccolIfIBFpsJV-28BJSeZd9NgZu7QA?e=UzEaPr){{% /pubtitle %}}.
+Sergey Yakubov, Greg Watson, Greg Cage, John Duggan, Andrew Ayres, Dave Pugmire, **Ken Moreland**, Kristin Maroun, and Randall Petras.
+In _Joint Nanoscience and Neutron Scattering User Meeting_, August 2025.
 
 {{% pubtitle %}}[Optimizing Threshold for Extreme Scale Analysis](/documents/DaxOptThreshold.pdf){{% /pubtitle %}}.
 Robert Maynard, **Kenneth Moreland**, Utkarsh Ayachit, Berk Geveci, and Kwan-Liu Ma.
