@@ -12,6 +12,16 @@ Scholar page].
 
 ## Journal and Conference Papers
 
+{{% pubtitle %}}[Parallelize Over Data Particle Advection: Participation, Ping Pong Particles, and Overhead](https://1drv.ms/b/c/afd0e9b2332ffee6/EfDse-zmFXZHl2LdSS0OmXsBc4P8hAu1xRxaWg8F5L5dpw?e=mbz9oC){{% /pubtitle %}}.
+Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, and David Pugmire.
+_IEEE Transactions on Visualization and Computer Graphics_, 10, 31(10):7795–7808, October 2025.
+[doi:10.1109/TVCG.2025.3557453](https://dx.doi.org/10.1109/TVCG.2025.3557453).
+
+{{% pubtitle %}}[In Situ Workload Estimation for Block Assignment and Duplication in Parallelization-Over-Data Particle Advection](https://1drv.ms/b/c/afd0e9b2332ffee6/EUpYoYJ5luZOlzf6XsFd620B1IKWWH85psW1ipqgb8LOTw?e=kaFS9e){{% /pubtitle %}}.
+Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, Guan Li, Guihua Shan, and David Pugmire.
+_Computer Graphics Forum_, 3, 44(3), May 2025.
+[doi:10.1111/cgf.70108](https://dx.doi.org/10.1111/cgf.70108).
+
 {{% pubtitle %}}[Uncertainty Visualization of Critical Points of 2D Scalar Fields for Parametric and Nonparametric Probabilistic Models](https://1drv.ms/b/s!Aub-LzOy6dCviukwdJqdmg66TYBJVw?e=fjc3Lf){{% /pubtitle %}}.
 Tushar M. Athawale, Zhe Wang, David Pugmire, **Kenneth Moreland**, Qian Gong, Scott Klasky, Chris R. Johnson, and Paul Rosen.
 _IEEE Transactions on Visualization and Computer Graphics_, 1, 31(1):108–118, January 2025.
