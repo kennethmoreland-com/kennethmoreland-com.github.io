@@ -573,13 +573,15 @@ _DOE Computer Graphics Forum_, April 29, 2025.
 **Kenneth Moreland**, Qian Gong, and Norbert Podhorszki.
 _Data-driven Plasma Science and Engineering Workshop_, February 27, 2025.
 
-{{% pubtitle %}}[Development of VTK-m During ECP](https://1drv.ms/p/s!Aub-LzOy6dCviuhrlJQTY3K2BwAPBw?e=BpDkLj){{% /pubtitle %}}.
+{{% pubtitle %}}[Development of VTK-m During ECP](https://1drv.ms/v/s!Aub-LzOy6dCviuhsAOESPM-JOPGkVQ?e=DmOPbO){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _HPC Best Practices Webinar_, September 25, 2024.
+<small>([slides](https://1drv.ms/p/s!Aub-LzOy6dCviuhrlJQTY3K2BwAPBw?e=BpDkLj))</small>
 
 {{% pubtitle %}}[ParaView on Frontier Training](https://kmorel.gitlab.io/pv-tutorial-olcf-2024/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 August 29, 2024.
+<small>([video](https://vimeo.com/1004226604))</small>
 
 {{% pubtitle %}}[Using VTK-m in ParaView and Catalyst](https://1drv.ms/p/s!Aub-LzOy6dCvitQHYKnbGNq-ncbn-A?e=hDTp6M){{% /pubtitle %}}.
 **Kenneth Moreland**.
@@ -593,10 +595,11 @@ _Software for the NASA Science Mission Directorate Workshop_, May 8, 2024.
 **Kenneth Moreland**.
 _DOE Computer Graphics Forum_, April 23, 2024.
 
-{{% pubtitle %}}[Enabling Visualization at the Exascale with VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvipBVJCFlsNT7fNRrOQ?e=Wg0Kxv){{% /pubtitle %}}.
+{{% pubtitle %}}[Enabling Visualization at the Exascale with VTK-m](https://1drv.ms/v/s!Aub-LzOy6dCvipBWyF98FipHoHIpuw?e=2ShLWC){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _IEEE Symposium on Large Data Analysis and Visualization (LDAV)_, October 23, 2023.
 Keynote.
+<small>([slides](https://1drv.ms/p/s!Aub-LzOy6dCvipBVJCFlsNT7fNRrOQ?e=Wg0Kxv))</small>
 
 {{% pubtitle %}}[VTK-m: Visualization for the Exascale Era and Beyond](https://1drv.ms/p/s!Aub-LzOy6dCvitkBVVoVlP_LUB-o8g?e=WzUcRT){{% /pubtitle %}}.
 Mark Bolstad, **Kenneth Moreland**, David Pugmire, David Rogers, Li-Ta Lo, Berk Geveci, Hank Childs, and Silvio Rizzi.
@@ -629,6 +632,7 @@ _D&AI Section All Hands Meeting_, Oak Ridge National Laboratory, September 21, 2
 {{% pubtitle %}}[ParaView OLCF Tutorial](https://kmorel.gitlab.io/pv-tutorial-olcf-2022/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 September 15, 2022.
+<small>([video](https://vimeo.com/750382858))</small>
 
 {{% pubtitle %}}[VTK-m Update](https://1drv.ms/p/s!Aub-LzOy6dCviIR0ZidK_JeMfTVOyw?e=63cKlK){{% /pubtitle %}}.
 **Kenneth Moreland**.
@@ -642,13 +646,15 @@ _ECP Annual Meeting_, May 2, 2022.
 **Kenneth Moreland**.
 _SCI Institute Visualization Seminar_, University of Utah, February 2, 2022.
 
-{{% pubtitle %}}[VTK-m: What it is, Why we need it, and How to use it](https://1drv.ms/p/s!Aub-LzOy6dCvhp1MFgmnGqzVHbV24g?e=9JAodi){{% /pubtitle %}}.
+{{% pubtitle %}}[VTK-m: What it is, Why we need it, and How to use it](https://1drv.ms/v/s!Aub-LzOy6dCvhp1NxBFNbcd7tATcEw?e=746Mpi){{% /pubtitle %}}.
 **Kenneth Moreland**.
 November 2021.
+<small>([slides](https://1drv.ms/p/s!Aub-LzOy6dCvhp1MFgmnGqzVHbV24g?e=9JAodi))</small>
 
-{{% pubtitle %}}[Color: What it is and How to Use It to Show Data](https://1drv.ms/p/s!Aub-LzOy6dCvhoQHR5nfaoY9wOgSfQ?e=JdZhlw){{% /pubtitle %}}.
+{{% pubtitle %}}[Color: What it is and How to Use It to Show Data](https://web.microsoftstream.com/video/9b6da63a-9c88-4430-afe6-e3ebbed71835){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _VISTA Webinar_, Oak Ridge National Laboratory, September 9, 2021.
+<small>([slides](https://1drv.ms/p/s!Aub-LzOy6dCvhoQHR5nfaoY9wOgSfQ?e=JdZhlw))</small>
 
 {{% pubtitle %}}[Enabling Visualization on Exascale Accelerators with VTK-m](https://1drv.ms/p/s!Aub-LzOy6dCvheMranvJSnqLcnb1dg?e=cZzn1Q){{% /pubtitle %}}.
 **Kenneth Moreland**.
@@ -701,6 +707,7 @@ _ECP Annual Meeting Tutorials_, January 17, 2019.
 {{% pubtitle %}}[Building Better Plots](https://www.drmoron.org/posts/better-plots/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _CCR Summer Seminar Talks_, Sandia National Laboratories, July 17, 2018.
+<small>([slides](https://1drv.ms/p/s!Aub-LzOy6dCvgWCH5w2yKBYD2LfR))</small>
 
 {{% pubtitle %}}[A Brief History of Interactive Visualization](https://1drv.ms/p/s!Aub-LzOy6dCvgVNp0nxAkyxldjLo){{% /pubtitle %}}.
 **Kenneth Moreland**.
@@ -749,6 +756,7 @@ _ISC Workshop on Visualization at Scale_, June 22, 2017.
 {{% pubtitle %}}[Building Better Plots](https://www.drmoron.org/posts/better-plots/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 _Sandia Post-Doc Workshop_, Sandia National Laboratories, February 20, 2017.
+<small>([slides](https://1drv.ms/p/s!Aub-LzOy6dCvgSDLfAVQJ0aKa3kA))</small>
 
 {{% pubtitle %}}[Large Scale Visualization with ParaView](https://docs.paraview.org/en/latest/Tutorials/SelfDirectedTutorial/){{% /pubtitle %}}.
 **Kenneth Moreland**, W. Alan Scott, David E. DeMarle, Joe Insley, Jonathan Woodring, and John Patchett.

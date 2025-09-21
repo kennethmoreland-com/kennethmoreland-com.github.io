@@ -23,7 +23,7 @@ primary_links = [
   'homeurl', 'url',
 ]
 secondary_links = [
-  'poster',
+  'video', 'poster', 'slides',
 ]
 
 bibdata = bibtexparser.parse_file(input_file, append_middleware=layers)
