@@ -51,7 +51,7 @@ Hank Childs, _et al_.
 _The International Journal of High Performance Computing Applications_, August 2020.
 [doi:10.1177/1094342020935991](https://dx.doi.org/10.1177/1094342020935991).
 
-{{% pubtitle %}}Coupling Exascale Multiphysics Applications: Methods and Lessons Learned{{% /pubtitle %}}.
+{{% pubtitle %}}[Coupling Exascale Multiphysics Applications: Methods and Lessons Learned](https://dx.doi.org/10.1109/eScience.2018.00133){{% /pubtitle %}}.
 J. Y. Choi, C. Chang, J. Dominski, S. Klasky, G. Merlo, E. Suchyta, M. Ainsworth, B. Allen, F. Cappello, M. Churchill, P. Davis, S. Di, G. Eisenhauer, S. Ethier, I. Foster, B. Geveci, H. Guo, K. Huck, F. Jenko, M. Kim, J. Kress, S. Ku, Q. Liu, J. Logan, A. Malony, K. Mehta, **K. Moreland**, T. Munson, M. Parashar, T. Peterka, N. Podhorszki, D. Pugmire, O. Tugluk, R. Wang, B. Whitney, M. Wolf, and C. Wood.
 In _2018 IEEE 14th International Conference on e-Science (e-Science)_, pages 442–452, October 2018.
 [doi:10.1109/eScience.2018.00133](https://dx.doi.org/10.1109/eScience.2018.00133).
@@ -86,12 +86,12 @@ Ron A. Oldfield, **Kenneth Moreland**, Nathan Fabian, and David Rogers.
 In _Proceedings of the 28th ACM international Conference on Supercomputing (ICS '14)_, pages 83–92, June 2014.
 [doi:10.1145/2597652.2597668](https://dx.doi.org/10.1145/2597652.2597668).
 
-{{% pubtitle %}}ADIOS Visualization Schema: A First Step Towards Improving Interdisciplinary Collaboration in High Performance Computing{{% /pubtitle %}}.
+{{% pubtitle %}}[ADIOS Visualization Schema: A First Step Towards Improving Interdisciplinary Collaboration in High Performance Computing](https://dx.doi.org/10.1109/eScience.2013.24){{% /pubtitle %}}.
 Roselyne Tchoua, Jong Choi, Scott Klasky, Qing Liu, Jeremy Logan, **Kenneth Moreland**, Jingqing Mu, Manish Parashar, Norbert Podhorszki, David Pugmire, and Matthew Wolf.
 In _IEEE International Conference on eScience_, pages 27–34, October 2013.
 [doi:10.1109/eScience.2013.24](https://dx.doi.org/10.1109/eScience.2013.24).
 
-{{% pubtitle %}}Research Challenges for Visualization Software{{% /pubtitle %}}.
+{{% pubtitle %}}[Research Challenges for Visualization Software](https://dx.doi.org/10.1109/MC.2013.179){{% /pubtitle %}}.
 Hank Childs, Berk Geveci, Will Schroeder, Jeremy Meredith, **Kenneth Moreland**, Christopher Sewell, Torsten Kuhlen, and E. Wes Bethel.
 _IEEE Computer_, 5, 46(5):34–42, May 2013.
 [doi:10.1109/MC.2013.179](https://dx.doi.org/10.1109/MC.2013.179).

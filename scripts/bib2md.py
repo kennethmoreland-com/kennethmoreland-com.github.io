@@ -83,6 +83,8 @@ def write_title(file, entry):
   for plink in primary_links:
     if (not link) and (plink in entry):
       link = entry[plink]
+  if (not link) and ('doi' in entry):
+    link = f'https://dx.doi.org/{entry["doi"]}'
   for slink_name in secondary_links:
     slink = slink_name + 'url'
     if (not link) and (slink in entry):
