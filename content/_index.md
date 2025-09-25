@@ -4,6 +4,14 @@ title = 'Kenneth Moreland'
 
 # Kenneth Moreland
 
+{{< slideshow width=960 height=305 >}}
+slideshow/fire.png
+slideshow/dax-threshold.png
+slideshow/paraview.png
+slideshow/supernova-stream-ribbons.png
+slideshow/views-corridor.jpg
+{{< /slideshow >}}
+
 Welcome to my home page, where you will find a list of my current and past
 activities. I am currently a Senior Research Scientist at Oak Ridge National
 Laboratory for the [Visualization group] in the [Computer Science and Mathematics

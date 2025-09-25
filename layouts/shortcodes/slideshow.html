@@ -1,0 +1,127 @@
+{{- $width := .Params.width -}}
+{{- $height := .Params.height -}}
+{{- $imagefiles := split .Inner "\n" -}}
+<script src="js/jquery-3.7.1.min.js" ></script>
+<div class="slideshow">
+  <style type="text/css" scoped>
+    .slideshow { 
+      position: relative;
+      width: {{ $width }}px;
+      height: {{ $height }}px;
+    }
+
+    .slideshow > img {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      border-radius: 10px;
+    }
+
+    /* Gracefully handle when window too small for slideshow. */
+    /* Assumes sidebar width <= 270px. */
+    {{- if gt $width 900 }}
+    @media(max-width:1320px) {
+      .slideshow {
+        width: 900px;
+        height: {{ div (mul 900 $height) $width }}px;
+      }
+
+     .slideshow > img {
+        width: 900px;
+        height: {{ div (mul 900 $height) $width }}px;
+      }
+    }
+    {{- end }}
+
+    {{- if gt $width 780 }}
+    @media(max-width:1200px) {
+      .slideshow {
+        width: 780px;
+        height: {{ div (mul 780 $height) $width }}px;
+      }
+
+     .slideshow > img {
+        width: 780px;
+        height: {{ div (mul 780 $height) $width }}px;
+      }
+    }
+    {{- end }}
+
+    {{- if gt $width 660 }}
+    @media(max-width:1080px) {
+      .slideshow {
+        width: 660px;
+        height: {{ div (mul 660 $height) $width }}px;
+      }
+
+      .slideshow > img {
+        width: 660px;
+        height: {{ div (mul 660 $height) $width }}px;
+      }
+    }
+    {{- end }}
+
+    {{- if gt $width 540 }}
+    @media(max-width:960px) {
+      .slideshow {
+        width: 540px;
+        height: {{ div (mul 540 $height) $width }}px;
+      }
+
+      .slideshow > img {
+        width: 540px;
+        height: {{ div (mul 540 $height) $width }}px;
+      }
+    }
+    {{- end }}
+
+    {{- if gt $width 420 }}
+    @media(max-width:840px) {
+      .slideshow {
+        width: 420px;
+        height: {{ div (mul 420 $height) $width }}px;
+      }
+
+      .slideshow > img {
+        width: 420px;
+        height: {{ div (mul 420 $height) $width }}px;
+      }
+    }
+    {{- end }}
+
+    /* At this point the sidebar has collapsed. */
+    {{- if gt $width 300 }}
+    @media(max-width:460px) {
+      .slideshow {
+        width: 300px;
+        height: {{ div (mul 300 $height) $width }}px;
+      }
+
+      .slideshow > img {
+        width: 300px;
+        height: {{ div (mul 300 $height) $width }}px;
+      }
+    }
+    {{- end }}
+  </style>
+{{- range $image := $imagefiles }}
+  {{- if ne (trim $image " ") "" -}} {{/* Skip empty lines */}}
+  <img src="{{ $image | safeHTML }}" alt=""/>
+  {{- end -}}
+{{- end }}
+</div>
+
+<script>
+$(".slideshow > img:gt(0)").hide();
+
+setInterval(function() { 
+  $('.slideshow > img:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.slideshow');
+},  10000);
+</script>
