@@ -1,0 +1,10 @@
+{{- with .Params -}}
+<img src="{{ .src }}"
+{{- if .width }}
+     width="{{ .width }}"
+{{- end -}}
+{{- if .height }}
+     width="{{ .height }}"
+{{- end }}
+     class="profilePic"/>
+{{- end -}}

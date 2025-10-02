@@ -2,7 +2,7 @@
 title = 'Contact Information'
 +++
 
-<img src="https://www.gravatar.com/avatar/b9c91a38e2d568238258fd90c856c620a10aba2aa0167ef7283e1672d2d55800?s=200" alt="Profile Picture" width="200" height="200" class="profilePicContact">
+{{< profile-pic src="https://www.gravatar.com/avatar/b9c91a38e2d568238258fd90c856c620a10aba2aa0167ef7283e1672d2d55800?s=200" width="200" height="200" >}}
 
 The best method for contacting me is through email.
 
