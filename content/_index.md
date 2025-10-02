@@ -5,6 +5,8 @@ title = 'Kenneth Moreland'
 # Kenneth Moreland
 
 {{< slideshow width=960 height=305 >}}
+slideshow/supernova-outer-iron.png
+slideshow/nyc-flow.png
 slideshow/fire.png
 slideshow/dax-threshold.png
 slideshow/paraview.png
