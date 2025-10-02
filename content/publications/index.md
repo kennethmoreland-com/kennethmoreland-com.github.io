@@ -17,6 +17,11 @@ Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, and Da
 _IEEE Transactions on Visualization and Computer Graphics_, 10, 31(10):7795–7808, October 2025.
 [doi:10.1109/TVCG.2025.3557453](https://dx.doi.org/10.1109/TVCG.2025.3557453).
 
+{{% pubtitle %}}[The Origins of the ParaView and VisIt Scientific Visualization Tools](https://dx.doi.org/10.1109/MCG.2025.3595349){{% /pubtitle %}}.
+James Ahrens, Hank Childs, and **Kenneth Moreland**.
+_IEEE Computer Graphics and Applications_, 5, 45(5):127–137, September 2025.
+[doi:10.1109/MCG.2025.3595349](https://dx.doi.org/10.1109/MCG.2025.3595349).
+
 {{% pubtitle %}}[In Situ Workload Estimation for Block Assignment and Duplication in Parallelization-Over-Data Particle Advection](https://1drv.ms/b/c/afd0e9b2332ffee6/EUpYoYJ5luZOlzf6XsFd620B1IKWWH85psW1ipqgb8LOTw?e=kaFS9e){{% /pubtitle %}}.
 Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, Guan Li, Guihua Shan, and David Pugmire.
 _Computer Graphics Forum_, 3, 44(3), May 2025.
