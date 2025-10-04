@@ -37,6 +37,22 @@ if(Python_FOUND)
     ${CMAKE_CURRENT_SOURCE_DIR}/scripts/publications.md.in
     ${CMAKE_CURRENT_SOURCE_DIR}/content/publications/index.md
     )
+
+  execute_process(
+    COMMAND ${Python_EXECUTABLE}
+      ${CMAKE_CURRENT_SOURCE_DIR}/scripts/yaml2activities.py
+      ${CMAKE_CURRENT_SOURCE_DIR}/curriculum_vitae/professional-activities.yaml
+    OUTPUT_VARIABLE markdown
+    ECHO_ERROR_VARIABLE
+    RESULT_VARIABLE result
+    )
+  if(NOT "${result}" EQUAL 0)
+    message(SEND_ERROR "YAML parser failed to run.")
+  endif()
+  file(WRITE
+    ${CMAKE_CURRENT_SOURCE_DIR}/content/professional-activities/index.md
+    ${markdown}
+    )
 else()
-  message("Could not find Python. Skipping parsing bib files.")
+  message("Could not find Python. Skipping parsing bib and yaml files.")
 endif()
