@@ -33,11 +33,17 @@ if(Python_FOUND)
   bib2md(POSTER_PUBS ${CMAKE_CURRENT_SOURCE_DIR}/curriculum_vitae/poster.bib)
   bib2md(PRESENTATION_PUBS ${CMAKE_CURRENT_SOURCE_DIR}/curriculum_vitae/presentation.bib)
   bib2md(PANEL_PUBS ${CMAKE_CURRENT_SOURCE_DIR}/curriculum_vitae/panel.bib)
+  set(PUBS_COMMENT "DO NOT EDIT! This file generated from .bib files.")
   configure_file(
     ${CMAKE_CURRENT_SOURCE_DIR}/scripts/publications.md.in
     ${CMAKE_CURRENT_SOURCE_DIR}/content/publications/index.md
     )
 
+  set_property(DIRECTORY APPEND PROPERTY
+    CMAKE_CONFIGURE_DEPENDS 
+      ${CMAKE_CURRENT_SOURCE_DIR}/scripts/yaml2activities.py
+      ${CMAKE_CURRENT_SOURCE_DIR}/curriculum_vitae/professional-activities.yaml
+    )
   execute_process(
     COMMAND ${Python_EXECUTABLE}
       ${CMAKE_CURRENT_SOURCE_DIR}/scripts/yaml2activities.py

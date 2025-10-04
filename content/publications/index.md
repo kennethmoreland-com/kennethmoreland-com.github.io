@@ -1,5 +1,6 @@
 +++
 title = 'Publications'
+comment = 'DO NOT EDIT! This file generated from .bib files.'
 +++
 
 You can also can also view the publications and metrics collected on [my Google
