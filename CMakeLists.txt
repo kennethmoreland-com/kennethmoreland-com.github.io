@@ -5,6 +5,23 @@ project(km_homepage NONE)
 add_subdirectory(curriculum_vitae)
 
 #################################
+# Capture CV pdf and copy into cv submodule so it can be pushed
+# to web page delivery.
+#set(cv_target curriculum_vitae_pdf)
+#get_target_property(cv_filename ${cv_target} OUTPUT_NAME)
+set(cv_filename "${CMAKE_CURRENT_BINARY_DIR}/curriculum_vitae/curriculum_vitae.pdf")
+set(cv_capture "${CMAKE_CURRENT_SOURCE_DIR}/cv/cv-kmoreland.pdf")
+add_custom_command(OUTPUT ${cv_capture}
+  MAIN_DEPENDENCY ${cv_filename}
+  COMMAND ${CMAKE_COMMAND} -E copy ${cv_filename} ${cv_capture}
+  COMMENT "Capturing CV PDF"
+  )
+
+add_custom_target(capture_cv ALL
+  DEPENDS ${cv_capture}
+  )
+
+#################################
 # Parse bibtex files to build publications page.
 find_package(Python)
 

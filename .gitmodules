@@ -4,3 +4,6 @@
 [submodule "curriculum_vitae"]
 	path = curriculum_vitae
 	url = https://github.com/kmorel-papers/curriculum_vitae.git
+[submodule "cv"]
+	path = cv
+	url = https://github.com/kennethmoreland-com/cv.git
