@@ -97,6 +97,10 @@ menu:
       url: /contact/
       weight: 6
 
+    - name: Full CV
+      url: /cv/cv-kmoreland.pdf
+      weight: 9999
+
 # Allow html tags in markdown.
 # This is necessary to make most shortcodes work with markdown.
 markup:
