@@ -4,6 +4,14 @@ title = 'Projects'
 
 ## Current Projects
 
+{{< summary title="MAGNET-FDM" >}}
+I am the lead PI for the Foundational Discovery Models (FDM) thrust of the
+MAthematics, ComputinG, and NETworking for Resource-Efficient Computational
+Science (MAGNET) Competitive Portfolios project. MAGNET-FDM leverages the power
+of machine learning models for scientific visualization to expand the frontier
+of science and reduce the time to discovery.
+{{< /summary >}}
+
 {{< summary title="Viskores" link="https://github.com/Viskores/viskores" icon="viskores.png" >}}
 I am one of the lead developers for Viskores, a toolkit of scientific
 visualization algorithms for emerging processor architectures. Viskores supports
@@ -13,9 +21,9 @@ and execution that can be applied to a variety of algorithms across many
 different processor architectures.
 {{< /summary >}}
 
-{{< summary title="RAPIDS2" link="https://rapids.lbl.gov/" icon="rapids.jpg" >}}
-I am a member of the RAPIDS2 SciDAC Institute for Computer Science, Data, and
-Artificial Intelligence. My role in RAPIDS2 is to work with DOE Office of
+{{< summary title="RAPIDS3" link="https://rapids.lbl.gov/" icon="rapids.jpg" >}}
+I am a member of the RAPIDS3 SciDAC Institute for Computer Science, Data, and
+Artificial Intelligence. My role in RAPIDS3 is to work with DOE Office of
 Science application teams in addressing visualization challenges for science
 discovery.
 {{< /summary >}}
@@ -47,6 +55,13 @@ CMake to build my dissertation. I continue to maintain and use these scripts.
 {{< / summary >}}
 
 ## Past Projects
+
+{{< summary title="RAPIDS2" link="https://rapids.lbl.gov/" icon="rapids.jpg" >}}
+(2021-2025) I was a member of the RAPIDS2 SciDAC Institute for Computer Science, Data, and
+Artificial Intelligence. My role in RAPIDS2 was to work with DOE Office of
+Science application teams in addressing visualization challenges for science
+discovery.
+{{< /summary >}}
 
 {{< summary title="VTK-m" link="https://m.vtk.org" icon="vtkm.png" >}}
 (2014--2025) I was the lead for the VTK-m project, which was the predecessor to

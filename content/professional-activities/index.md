@@ -181,6 +181,15 @@ Big Data Analytics: Challenges and Opportunities:
 Visualization Infrastructure & Systems Technology:
 [2014](https://www.tacc.utexas.edu/sc14/workshops/vistech).
 
+## Seminar Invitations
+
+Schloss Dagstuhl:
+[In Situ Visualization for Computational Science (Seminar 18271)](https://drops.dagstuhl.de/entities/document/10.4230/DagRep.8.7.1).
+
+NII Shonan Meeting:
+[The Moving Target of Visualization Software for an Ever More Complex World (Seminar 145)](https://shonan.nii.ac.jp/seminars/145/),
+[The Moving Target of Visualization Software - Closing the Gap between Research and Application (Seminar 193)](https://shonan.nii.ac.jp/seminars/193/).
+
 ## Review Panels
 
 DOE SBIR Phase I:
