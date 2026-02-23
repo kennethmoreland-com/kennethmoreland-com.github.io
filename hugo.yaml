@@ -72,17 +72,25 @@ menu:
       url: /publications/#tech-report
       weight: 13
       parent: Publications
+    - name: Invited Talks
+      url: /publications/#invited-talk
+      weight: 14
+      parent: Publications
+    - name: Tutorials
+      url: /publications/#tutorial
+      weight: 15
+      parent: Publications
     - name: Posters
       url: /publications/#poster
-      weight: 14
+      weight: 16
       parent: Publications
     - name: Presentations
       url: /publications/#presentation
-      weight: 15
+      weight: 17
       parent: Publications
     - name: Panels
       url: /publications/#panel
-      weight: 16
+      weight: 18
       parent: Publications
 
     - name: Professional Activities
