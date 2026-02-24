@@ -148,6 +148,7 @@ PhD thesis, University of New Mexico, July 2004.
 {{% pubtitle %}}[Efficient Probabilistic Visualization of Local Divergence of 2D Vector Fields with Independent Gaussian Uncertainty](https://dx.doi.org/10.1109/UncertaintyVisualization68947.2025.00006){{% /pubtitle %}}.
 Timbwaoga A. J. Ouermi, Eric Li, **Kenneth Moreland**, Dave Pugmire, Chris R. Johnson, and Tushar M. Athawale.
 In _2025 IEEE Workshop on Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making_, pages 12–16, November 2025.
+Winner best paper.
 [doi:10.1109/UncertaintyVisualization68947.2025.00006](https://dx.doi.org/10.1109/UncertaintyVisualization68947.2025.00006).
 
 {{% pubtitle %}}[FunM<sup>2</sup>C: A Filter for Uncertainty Visualization of Multivariate Data on Multi-Core Devices](https://1drv.ms/b/s!Aub-LzOy6dCviukuIwhlsuGE2zYYDA?e=NyaWVZ){{% /pubtitle %}}.
