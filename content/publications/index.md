@@ -352,6 +352,12 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 
 ## Technical Reports and other Non Peer Reviewed
 
+{{% pubtitle %}}[Scientific Data Compression for Large Scale Computational Fluid Dynamics (CFD) Simulations](https://dx.doi.org/10.2172/3029729){{% /pubtitle %}}.
+Viktor Reshniak, Qian Gong, Rick Archibald, Scott Klasky, Norbert Podhorszki, and **Ken Moreland**.
+Technical Report ORNL/TM-2026/4558, Oak Ridge National Laboratory (ORNL), April 2026.
+CRADA Final Report – NFE-22-09231.
+[doi:10.2172/3029729](https://dx.doi.org/10.2172/3029729).
+
 {{% pubtitle %}}[The Viskores User's Guide, Release 1.0](https://viskores.readthedocs.io/en/v1.0.0/){{% /pubtitle %}}.
 **Kenneth Moreland**.
 Technical Report ORNL/TM-2025/4019, Oak Ridge National Laboratory, April 2025.
