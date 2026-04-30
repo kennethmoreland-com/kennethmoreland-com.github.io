@@ -145,6 +145,11 @@ PhD thesis, University of New Mexico, July 2004.
 
 ## Symposium, Workshop, and Invited Papers
 
+{{% pubtitle %}}[Rasterization with Data-Parallel Primitives](/rasterization-dpp/){{% /pubtitle %}}.
+Makani Buckley, **Kenneth Moreland**, and Hank Childs.
+In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, 2026.
+(To appear in).
+
 {{% pubtitle %}}[Efficient Probabilistic Visualization of Local Divergence of 2D Vector Fields with Independent Gaussian Uncertainty](https://dx.doi.org/10.1109/UncertaintyVisualization68947.2025.00006){{% /pubtitle %}}.
 Timbwaoga A. J. Ouermi, Eric Li, **Kenneth Moreland**, Dave Pugmire, Chris R. Johnson, and Tushar M. Athawale.
 In _2025 IEEE Workshop on Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making_, pages 12–16, November 2025.
