@@ -30,13 +30,13 @@ and therefore useful for rasterization on high-performance computers.
 
 ## Full Paper
 
-Coming Soon
+{{% pubtitle %}}[Rasterization with Data-Parallel Primitives](https://1drv.ms/b/c/afd0e9b2332ffee6/IQAJvG49uQG5Rb8BeKEJudpWARg_LZI1pQhVnX2Eod2z240?e=qkWiSP){{% /pubtitle %}}
 
 ## Supplemental Materials
 
 The following tarball contains the source code used for the experiments in the
-paper. This code was compiled against [CUDA Toolkit 11.5] and [Viskores 1.1.0]
-in our experiments.
+paper. This code has been compiled against [CUDA Toolkit 11.5] and [Viskores
+1.1.0].
 
 [dpp-rasterizer-src.tar.gz](dpp-rasterizer-src.tar.gz)
 
