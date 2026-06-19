@@ -26,37 +26,37 @@ _IEEE Transactions on Visualization and Computer Graphics_, pages 1–10, 2026.
 
 {{% pubtitle %}}[Parallelize Over Data Particle Advection: Participation, Ping Pong Particles, and Overhead](https://1drv.ms/b/c/afd0e9b2332ffee6/EfDse-zmFXZHl2LdSS0OmXsBc4P8hAu1xRxaWg8F5L5dpw?e=mbz9oC){{% /pubtitle %}}.
 Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, and David Pugmire.
-_IEEE Transactions on Visualization and Computer Graphics_, 10, 31(10):7795–7808, October 2025.
+_IEEE Transactions on Visualization and Computer Graphics_, 31(10):7795–7808, October 2025.
 [doi:10.1109/TVCG.2025.3557453](https://dx.doi.org/10.1109/TVCG.2025.3557453).
 
 {{% pubtitle %}}[The Origins of the ParaView and VisIt Scientific Visualization Tools](https://dx.doi.org/10.1109/MCG.2025.3595349){{% /pubtitle %}}.
 James Ahrens, Hank Childs, and **Kenneth Moreland**.
-_IEEE Computer Graphics and Applications_, 5, 45(5):127–137, September 2025.
+_IEEE Computer Graphics and Applications_, 45(5):127–137, September 2025.
 [doi:10.1109/MCG.2025.3595349](https://dx.doi.org/10.1109/MCG.2025.3595349).
 
 {{% pubtitle %}}[In Situ Workload Estimation for Block Assignment and Duplication in Parallelization-Over-Data Particle Advection](https://1drv.ms/b/c/afd0e9b2332ffee6/EUpYoYJ5luZOlzf6XsFd620B1IKWWH85psW1ipqgb8LOTw?e=kaFS9e){{% /pubtitle %}}.
 Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, Guan Li, Guihua Shan, and David Pugmire.
-_Computer Graphics Forum_, 3, 44(3), May 2025.
+_Computer Graphics Forum_, 44(3), May 2025.
 [doi:10.1111/cgf.70108](https://dx.doi.org/10.1111/cgf.70108).
 
 {{% pubtitle %}}[Uncertainty Visualization of Critical Points of 2D Scalar Fields for Parametric and Nonparametric Probabilistic Models](https://1drv.ms/b/s!Aub-LzOy6dCviukwdJqdmg66TYBJVw?e=fjc3Lf){{% /pubtitle %}}.
 Tushar M. Athawale, Zhe Wang, David Pugmire, **Kenneth Moreland**, Qian Gong, Scott Klasky, Chris R. Johnson, and Paul Rosen.
-_IEEE Transactions on Visualization and Computer Graphics_, 1, 31(1):108–118, January 2025.
+_IEEE Transactions on Visualization and Computer Graphics_, 31(1):108–118, January 2025.
 [doi:10.1109/TVCG.2024.3456393](https://dx.doi.org/10.1109/TVCG.2024.3456393).
 
 {{% pubtitle %}}[Visualization at exascale: Making it all work with VTK-m](https://1drv.ms/b/s!Aub-LzOy6dCvith_zp2BwGnUgsAhYQ?e=b2PSyK){{% /pubtitle %}}.
 **Kenneth Moreland**, Tushar M. Athawale, Vicente Bolea, Mark Bolstad, Eric Brugger, Hank Childs, Axel Huebl, Li-Ta Lo, Berk Geveci, Nicole Marsaglia, Sujin Philip, David Pugmire, Silvio Rizzi, Zhe Wang, and Abhishek Yenpure.
-_The International Journal of High Performance Computing Applications_, 5, 38(5):508–526, August 2024.
+_The International Journal of High Performance Computing Applications_, 38(5):508–526, August 2024.
 [doi:10.1177/10943420241270969](https://dx.doi.org/10.1177/10943420241270969).
 
 {{% pubtitle %}}[A New Default Colormap for ParaView](https://1drv.ms/b/s!Aub-LzOy6dCvitkA32iJZCpkRqay2g?e=Iysa1r){{% /pubtitle %}}.
 Francesca Samsel, W. Alan Scott, and **Kenneth Moreland**.
-_IEEE Computer Graphics and Applications_, 4, 44(4):150–160, July 2024.
+_IEEE Computer Graphics and Applications_, 44(4):150–160, July 2024.
 [doi:10.1109/MCG.2024.3383137](https://dx.doi.org/10.1109/MCG.2024.3383137).
 
 {{% pubtitle %}}[Minimizing Development Costs for Efficient Many-Core Visualization Using MCD<sup>3</sup>](https://1drv.ms/b/s!Aub-LzOy6dCvhot_Mo_dMI2h5AWWhQ?e=htBrzJ){{% /pubtitle %}}.
 **Kenneth Moreland**, Robert Maynard, David Pugmire, Abhishek Yenpure, Allison Vacanti, Matthew Larsen, and Hank Childs.
-_Parallel Computing_, 102834, 108(102834), December 2021.
+_Parallel Computing_, 108(102834), December 2021.
 [doi:10.1016/j.parco.2021.102834](https://dx.doi.org/10.1016/j.parco.2021.102834).
 
 {{% pubtitle %}}[Scientific Visualization: New Techniques in Production Software](https://sinews.siam.org/Details-Page/scientific-visualization-new-techniques-in-production-software){{% /pubtitle %}}.
@@ -75,22 +75,22 @@ In _2018 IEEE 14th International Conference on e-Science (e-Science)_, pages 442
 
 {{% pubtitle %}}[The future of scientific workflows](/documents/deelman-ijhpca17-paper.pdf){{% /pubtitle %}}.
 Ewa Deelman, Tom Peterka, Ilkay Altintas, Christopher D Carothers, Kerstin Kleese van Dam, **Kenneth Moreland**, Manish Parashar, Lavanya Ramakrishnan, Michela Taufer, and Jeffrey Vetter.
-_International Journal of High Performance Computing Applications_, 1, 32(1):159–175, January 2018.
+_International Journal of High Performance Computing Applications_, 32(1):159–175, January 2018.
 [doi:10.1177/1094342017704893](https://dx.doi.org/10.1177/1094342017704893).
 
 {{% pubtitle %}}[In Situ Methods, Infrastructures, and Applications on High Performance Computing Platforms](/documents/eg2016-inSitu-STAR.pdf){{% /pubtitle %}}.
 Andrew C. Bauer, Hasan Abbasi, James Ahrens, Hank Childs, Berk Geveci, Scott Klasky, **Kenneth Moreland**, Patrick O'Leary, Venkatram Vishwanath, Brad Whitlock, and E. Wes Bethel.
-_Computer Graphics Forum_, 3, 35(3):577–597, June 2016.
+_Computer Graphics Forum_, 35(3):577–597, June 2016.
 [doi:10.1111/cgf.12930](https://dx.doi.org/10.1111/cgf.12930).
 
 {{% pubtitle %}}[VTK-m: Accelerating the Visualization Toolkit for Massively Threaded Architectures](/documents/VTKmCGA2016.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, Christopher Sewell, William Usher, Li-Ta Lo, Jeremy Meredith, David Pugmire, James Kress, Hendrik Schroots, Kwan-Liu Ma, Hank Childs, Matthew Larsen, Chun-Ming Chen, Robert Maynard, and Berk Geveci.
-_IEEE Computer Graphics and Applications_, 3, 36(3):48–58, May/June 2016.
+_IEEE Computer Graphics and Applications_, 36(3):48–58, May/June 2016.
 [doi:10.1109/MCG.2016.48](https://dx.doi.org/10.1109/MCG.2016.48).
 
 {{% pubtitle %}}[The Tensions of In Situ Visualization](/documents/InSituTensions.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-_IEEE Computer Graphics and Applications_, 2, 36(2):5–9, March/April 2016.
+_IEEE Computer Graphics and Applications_, 36(2):5–9, March/April 2016.
 [doi:10.1109/MCG.2016.35](https://dx.doi.org/10.1109/MCG.2016.35).
 
 {{% pubtitle %}}[Formal Metrics for Large-Scale Parallel Performance](/parallel-scaling-metrics/){{% /pubtitle %}}.
@@ -110,12 +110,12 @@ In _IEEE International Conference on eScience_, pages 27–34, October 2013.
 
 {{% pubtitle %}}[Research Challenges for Visualization Software](https://dx.doi.org/10.1109/MC.2013.179){{% /pubtitle %}}.
 Hank Childs, Berk Geveci, Will Schroeder, Jeremy Meredith, **Kenneth Moreland**, Christopher Sewell, Torsten Kuhlen, and E. Wes Bethel.
-_IEEE Computer_, 5, 46(5):34–42, May 2013.
+_IEEE Computer_, 46(5):34–42, May 2013.
 [doi:10.1109/MC.2013.179](https://dx.doi.org/10.1109/MC.2013.179).
 
 {{% pubtitle %}}[A Survey of Visualization Pipelines](/vis-pipelines/){{% /pubtitle %}}.
 **Kenneth Moreland**.
-_IEEE Transactions on Visualization and Computer Graphics_, 3, 19(3):367–378, March 2013.
+_IEEE Transactions on Visualization and Computer Graphics_, 19(3):367–378, March 2013.
 [doi:10.1109/TVCG.2012.133](https://dx.doi.org/10.1109/TVCG.2012.133).
 
 {{% pubtitle %}}[An Image Compositing Solution at Scale](/scalable-rendering/#an-image-compositing-solution-at-scale){{% /pubtitle %}}.
@@ -125,12 +125,12 @@ In _Proceedings of 2011 International Conference for High Performance Computing,
 
 {{% pubtitle %}}[Time Dependent Processing in a Parallel Pipeline Architecture](/time-vis/){{% /pubtitle %}}.
 John Biddiscombe, Berk Geveci, Ken Martin, **Kenneth Moreland**, and David Thompson.
-_IEEE Transactions on Visualization and Computer Graphics_, 6, 13(6):1376–1383, November/December 2007.
+_IEEE Transactions on Visualization and Computer Graphics_, 13(6):1376–1383, November/December 2007.
 [doi:10.1109/TVCG.2007.70600](https://dx.doi.org/10.1109/TVCG.2007.70600).
 
 {{% pubtitle %}}[Scalable Rendering on PC Clusters](/documents/ScalableRendering.pdf){{% /pubtitle %}}.
 Brian Wylie, Constantine Pavlakos, Vasily Lewis, and **Kenneth Moreland**.
-_IEEE Computer Graphics and Applications_, 4, 21(4):62–70, July/August 2001.
+_IEEE Computer Graphics and Applications_, 21(4):62–70, July/August 2001.
 
 
 
@@ -250,7 +250,7 @@ In _Proceedings of the First Workshop on In Situ Infrastructures for Enabling Ex
 
 {{% pubtitle %}}[Visualization for Exascale: Portable Performance is Critical](/documents/SCFrontiers2015.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, Matthew Larsen, and Hank Childs.
-_Supercomputing Frontiers and Innovations_, 3, 2(3), November 2015.
+_Supercomputing Frontiers and Innovations_, 2(3), November 2015.
 [doi:10.14529/jsfi150306](https://dx.doi.org/10.14529/jsfi150306).
 
 {{% pubtitle %}}[Finely-Threaded History-Based Topology Computation](/topology-threading/#finely-threaded-history-based-topology-computation){{% /pubtitle %}}.
@@ -313,12 +313,12 @@ _SciDAC Review_, 12, pages 12–21, Spring 2009.
 
 {{% pubtitle %}}[Visualization and parallel I/O at extreme scale](/documents/SciDAC08-2.pdf){{% /pubtitle %}}.
 R B Ross, T Peterka, H-W Shen, Y Hong, K-L Ma, H Yu, and **K Moreland**.
-_Journal of Physics: Conference Series_, 012099, 125(012099), July 2008.
+_Journal of Physics: Conference Series_, 125(012099), July 2008.
 [doi:10.1088/1742-6596/125/1/012099](https://dx.doi.org/10.1088/1742-6596/125/1/012099).
 
 {{% pubtitle %}}[Ultra-Scale Visualization: Research and Education](/documents/UltraVis07.pdf){{% /pubtitle %}}.
 Kwan-Liu Ma, Robert Ross, Jian Huang, Greg Humphreys, Nelson Max, **Kenneth Moreland**, John D. Owens, and Han-Wei Shen.
-_Journal of Physics: Conference Series_, 012088, 78(012088), June 2007.
+_Journal of Physics: Conference Series_, 78(012088), June 2007.
 [doi:10.1088/1742-6596/78/1/012088](https://dx.doi.org/10.1088/1742-6596/78/1/012088).
 
 {{% pubtitle %}}[Parallel Unstructured Volume Rendering in ParaView](/documents/ParallelVolRen.pdf){{% /pubtitle %}}.
@@ -364,13 +364,13 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 
 {{% pubtitle %}}[Scientific Data Compression for Large Scale Computational Fluid Dynamics (CFD) Simulations](https://dx.doi.org/10.2172/3029729){{% /pubtitle %}}.
 Viktor Reshniak, Qian Gong, Rick Archibald, Scott Klasky, Norbert Podhorszki, and **Ken Moreland**.
-Technical Report ORNL/TM-2026/4558, Oak Ridge National Laboratory (ORNL), April 2026.
+Oak Ridge National Laboratory (ORNL), Technical Report ORNL/TM-2026/4558, April 2026.
 CRADA Final Report – NFE-22-09231.
 [doi:10.2172/3029729](https://dx.doi.org/10.2172/3029729).
 
 {{% pubtitle %}}[The Viskores User's Guide, Release 1.0](https://viskores.readthedocs.io/en/v1.0.0/){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2025/4019, Oak Ridge National Laboratory, April 2025.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2025/4019, April 2025.
 
 {{% pubtitle %}}[New Default Colormap and Background in the next version of ParaView](https://www.kitware.com/new-default-colormap-and-background-in-next-paraview-release/){{% /pubtitle %}}.
 Francesca Samsel, **Ken Moreland**, W. Alan Scott, Spiros Tsalikis, and Cory Quammen.
@@ -378,15 +378,15 @@ _Kitware Source_, October 2024.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 2.2](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-2-2.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2024/3443, Oak Ridge National Laboratory, July 2024.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2024/3443, July 2024.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 2.1](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-2-1.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2023/3182, Oak Ridge National Laboratory, November 2023.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2023/3182, November 2023.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 2.0](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-2-0.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2023/2863, Oak Ridge National Laboratory, February 2023.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2023/2863, February 2023.
 
 {{% pubtitle %}}[VTK-m Accelerated Filters in VTK and ParaView](https://www.kitware.com/vtk-m-accelerated-filters-in-vtk-and-paraview/){{% /pubtitle %}}.
 Sujin Philip, **Kenneth Moreland**, and Robert Maynard.
@@ -394,61 +394,61 @@ _Kitware Source_, 2023.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.9](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-9.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2022/2744, Oak Ridge National Laboratory, October 2022.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2022/2744, October 2022.
 
 {{% pubtitle %}}[The Importance of Scientific Visualization on Novel Hardware](/documents/novel-hardware-ornl-report.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, David Pugmire, Berk Geveci, Li-Ta Lo, Hank Childs, Mark Bolstad, Ruchi Shah, and Panruo Wu.
-Technical Report ORNL/LTR-2022/415, Oak Ridge National Laboratory, September 2022.
+Oak Ridge National Laboratory, Technical Report ORNL/LTR-2022/415, September 2022.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.8](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-8.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2022/2516, Oak Ridge National Laboratory, August 2022.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2022/2516, August 2022.
 
 {{% pubtitle %}}[The Exploitation of Data Reduction for Visualization](/documents/data-reduction-ornl-report.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, David Pugmire, and Jieyang Chen.
-Technical Report ORNL/LTR-2022/412, Oak Ridge National Laboratory, August 2022.
+Oak Ridge National Laboratory, Technical Report ORNL/LTR-2022/412, August 2022.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.7](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-7.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2021/2346, Oak Ridge National Laboratory, December 2021.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2021/2346, December 2021.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.6](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-6.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report ORNL/TM-2021/2075, Oak Ridge National Laboratory, July 2021.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2021/2075, July 2021.
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.5](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-5.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report SAND 2019-12638 B, Sandia National Laboratories, October 2019.
+Sandia National Laboratories, Technical Report SAND 2019-12638 B, October 2019.
 
 {{% pubtitle %}}[XVis: Visualization for the Extreme-Scale Scientific Computation Ecosystem, Final Report](https://1drv.ms/b/s!Aub-LzOy6dCvgXPWqhkN7hxOJu1r?e=ndO5mK){{% /pubtitle %}}.
 **Kenneth Moreland**, David Pugmire, David Rogers, Hank Childs, Kwan-Liu Ma, and Berk Geveci.
-Technical Report SAND 2019-9297, Sandia National Laboratories, August 2019.
+Sandia National Laboratories, Technical Report SAND 2019-9297, August 2019.
 [doi:10.2172/1762947](https://dx.doi.org/10.2172/1762947).
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.4](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-4.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report SAND 2019-8008 B, Sandia National Laboratories, July 2019.
+Sandia National Laboratories, Technical Report SAND 2019-8008 B, July 2019.
 
 {{% pubtitle %}}[In Situ Visualization for Computational Science (Dagstuhl Seminar 18271)](http://drops.dagstuhl.de/opus/volltexte/2019/10171/){{% /pubtitle %}}.
 Janine C. Bennett, Hank Childs, Christoph Garth, Bernd Hentschel, _et al_.
-_Dagstuhl Reports_, 7, 8(7):1–43, 2019.
+_Dagstuhl Reports_, 8(7):1–43, 2019.
 [doi:10.4230/DagRep.8.7.1](https://dx.doi.org/10.4230/DagRep.8.7.1).
 
 {{% pubtitle %}}[The VTK-m User's Guide, VTK-m version 1.3](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-3.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report SAND 2018-13465 B, Sandia National Laboratories, November 2018.
+Sandia National Laboratories, Technical Report SAND 2018-13465 B, November 2018.
 
 {{% pubtitle %}}[Isosurface Visualization Miniapplication](/documents/miniIsosurface.pdf){{% /pubtitle %}}.
 Daniel Bourgeois, Michael Wolf, and **Kenneth Moreland**.
-Technical Report SAND2018-2780O, Sandia National Laboratories, 2018.
+Sandia National Laboratories, Technical Report SAND2018-2780O, 2018.
 
 {{% pubtitle %}}[A Need for Better Management of Heterogenous HPC Resources](/documents/HeteroResourceManage.pdf){{% /pubtitle %}}.
 **Kenneth Moreland** and Chuck Atkins.
-Technical Report Sandia National Laboratories, 2018.
+Sandia National Laboratories, Technical Report 2018.
 
 {{% pubtitle %}}[Advanced Scientific Computing Research Exascale Requirements Review](https://www.osti.gov/biblio/1375638){{% /pubtitle %}}.
 Jeffrey Vetter, Ann Almgren, Phil DeMar, Katherine Riley, Katie Antypas, Deborah Bard, Richard Coffey, Eli Dart, Sudip Dosanjh, Richard Gerber, James Hack, Inder Monga, Michael E. Papka, Lauren Rotman, Tjerk Straatsma, Jack Wells, David E. Bernholdt, Wes Bethel, George Bosilca, Frank Cappello, Todd Gamblin, Salman Habib, Judy Hill, Jeffrey K. Hollingsworth, Lois Curfman McInnes, Kathryn Mohror, Shirley Moore, **Ken Moreland**, Rob Roser, Sameer Shende, Galen Shipman, and Samuel Williams.
-Technical Report An Office of Science review sponsored by Advanced Scientific Computing Research, September 2016.
+An Office of Science review sponsored by Advanced Scientific Computing Research, Technical Report September 2016.
 [doi:10.2172/1375638](https://dx.doi.org/10.2172/1375638).
 
 {{% pubtitle %}}[The Future of Scientific Workflows](http://science.energy.gov/ /media/ascr/pdf/programdocuments/docs/workflows_final_report.pdf){{% /pubtitle %}}.
@@ -467,20 +467,20 @@ Technical Report SAND2015-7813 TR, 2015.
 
 {{% pubtitle %}}[Implementing Parallel Algorithms Using the Dax Toolkit](/documents/CCR2014.pdf){{% /pubtitle %}}.
 Hendrik Schroots and **Kenneth Moreland**.
-Technical Report SAND 2015-3829 O, Sandia National Laboratories, December 2014.
+Sandia National Laboratories, Technical Report SAND 2015-3829 O, December 2014.
 CR Summer Proceedings.
 
 {{% pubtitle %}}[A Pervasive Parallel Framework for Visualization: Final Report for FWP 10-014707](/documents/DaxReport2013.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report SAND 2014-0047, Sandia National Laboratories, January 2014.
+Sandia National Laboratories, Technical Report SAND 2014-0047, January 2014.
 
 {{% pubtitle %}}[Data Co-Processing for Extreme Scale Analysis Level II ASC Milestone (4745)](/documents/MilestoneFY13.pdf){{% /pubtitle %}}.
 David Rogers, **Kenneth Moreland**, Ron Oldfield, and Nathan Fabian.
-Technical Report SAND2013-1122, Sandia National Laboratories, 2013.
+Sandia National Laboratories, Technical Report SAND2013-1122, 2013.
 
 {{% pubtitle %}}[Enabling Production-Quality Scientific-Discovery Tools with Data and Execution Models](/documents/ModelsWhitepaper.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, Jeremy Meredith, and Berk Geveci.
-Technical Report SAND 2012-10796P, Sandia National Laboratories, December 2012.
+Sandia National Laboratories, Technical Report SAND 2012-10796P, December 2012.
 
 {{% pubtitle %}}[Oh, $#*@! Exascale! The Effect of Emerging Architectures on Scientific Discovery](/documents/OhShExascale.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
@@ -494,11 +494,11 @@ In _2012 SC Companion (Proceedings of the Ultrascale Visualization Workshop)_, p
 
 {{% pubtitle %}}[Report of Experiments and Evidence for ASC L2 Milestone 4467 - Demonstration of a Legacy Application’s Path to Exascale](/documents/SAND2012-1750.pdf){{% /pubtitle %}}.
 Brian Barrett, Richard Barrett, James Brandt, Ron Brightwell, Matthew Curry, Nathan Fabian, Kurt Ferreira, Ann Gentile, Scott Hemmert, Suzanne Kelly, Ruth Klundt, James Laros III, Vitus Leung, Michael Levenhagen, Gerald Lofstead, **Ken Moreland**, Ron Oldfield, Kevin Pedretti, Arun Rodrigues, David Thompson, Tom Tucker, Lee Ward, John Van Dyke, Courtenay Vaughan, and Kyle Wheeler.
-Technical Report SAND 2012-1750, Sandia National Laboratories, March 2012.
+Sandia National Laboratories, Technical Report SAND 2012-1750, March 2012.
 
 {{% pubtitle %}}[IceT Users' Guide and Reference, Version 2.1](/documents/IceTUsersGuide-2-1.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report SAND2011-5011, Sandia National Laboratories, August 2011.
+Sandia National Laboratories, Technical Report SAND2011-5011, August 2011.
 
 {{% pubtitle %}}[Scientific Discovery at the Exascale](/documents/Exascale-ASCR-Analysis.pdf){{% /pubtitle %}}.
 Sean Ahern, Arie Shoshani, Kwan-Liu Ma, _et al_.
@@ -506,20 +506,20 @@ _Report from the DOE ASCR 2011 Workshop on Exascale Data Management, Analysis, a
 
 {{% pubtitle %}}[IceT Users’ Guide and Reference, Version 2.0](https://www.osti.gov/biblio/1005031){{% /pubtitle %}}.
 **Kenneth Moreland**.
-Technical Report SAND2010-7451, Sandia National Laboratories, December 2010.
+Sandia National Laboratories, Technical Report SAND2010-7451, December 2010.
 [doi:10.2172/1005031](https://dx.doi.org/10.2172/1005031).
 
 {{% pubtitle %}}[Visualization on Supercomputing Platform Level II ASC Milestone (3537-1B) Results from Sandia](/documents/MilestoneFY10Sandia.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, Nathan Fabian, Pat Marion, and Berk Geveci.
-Technical Report SAND 2010-6118, Sandia National Laboratories, September 2010.
+Sandia National Laboratories, Technical Report SAND 2010-6118, September 2010.
 
 {{% pubtitle %}}[Scalable Analysis Tools for Sensitivity Analysis and UQ (3160) Results](/documents/MilestoneUQ2009.pdf){{% /pubtitle %}}.
 Lisa Ice, Nathan Fabian, **Kenneth D. Moreland**, Janine C. Bennett, David C. Thompson, David B. Karelitz, and W. Alan Scott.
-Technical Report 2009-6032, Sandia National Laboratories, September 2009.
+Sandia National Laboratories, Technical Report 2009-6032, September 2009.
 
 {{% pubtitle %}}[Design Issues for Performing In Situ Analysis of Simulation Data](/documents/SAND2009-2014.pdf){{% /pubtitle %}}.
 David Thompson, Nathan D. Fabian, **Kenneth D. Moreland**, and Lisa G. Ice.
-Technical Report SAND2009-2014, Sandia National Laboratories, 2009.
+Sandia National Laboratories, Technical Report SAND2009-2014, 2009.
 
 {{% pubtitle %}}[Analysis of Fragmentation in Shock Physics Simulation](/documents/SC08UltravisWorkshop.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, C. Charles Law, Lisa Ice, and David Karelitz.
@@ -528,7 +528,7 @@ In _Proceedings of the 2008 Workshop on Ultrascale Visualization_, pages 40-46, 
 
 {{% pubtitle %}}[Post-Processing V&V Level II ASC Milestone (2843) Results](/documents/VVMilestone2008.pdf){{% /pubtitle %}}.
 David B. Karelitz, Lisa Ice, Jason Wilke, Stephen W. Attaway, and **Kenneth Moreland**.
-Technical Report SAND 2008-6183, Sandia National Laboratories, September 2008.
+Sandia National Laboratories, Technical Report SAND 2008-6183, September 2008.
 
 {{% pubtitle %}}[Large Scale Visualization on the Cray XT3 Using ParaView](/pv-cray-xt3/){{% /pubtitle %}}.
 **Kenneth Moreland**, David Rogers, John Greenfield, Berk Geveci, Patrick Marion, Alexander Neundorf, and Kent Eschenberg.
@@ -540,11 +540,11 @@ In _IEEE Symposium on Visual Analytics Science and Technology_, October 2007.
 
 {{% pubtitle %}}[Massive Graph Visualization: LDRD Final Report](/documents/LDRD2006.pdf){{% /pubtitle %}}.
 **Kenneth Moreland** and Brian Wylie.
-Technical Report SAND 2007-6307, Sandia National Laboratories, October 2007.
+Sandia National Laboratories, Technical Report SAND 2007-6307, October 2007.
 
 {{% pubtitle %}}[Post-Processing V&V Level II ASC Milestone (2360) Results](/documents/VVMilestone2007.pdf){{% /pubtitle %}}.
 David B. Karelitz, Elmer Chavez, V. Gregory Weirs, Timothy M. Shead, **Kenneth D. Moreland**, Thomas A. Brunner, and Timothy G. Trucano.
-Technical Report SAND 2007-6006, Sandia National Laboratories, September 2007.
+Sandia National Laboratories, Technical Report SAND 2007-6006, September 2007.
 
 {{% pubtitle %}}[Using Ghost Cells in Parallel Filters](https://www.osti.gov/biblio/1727360){{% /pubtitle %}}.
 **Kenneth Moreland**.
@@ -737,7 +737,7 @@ In _Proceedings of SciDAC_, 2010.
 
 {{% pubtitle %}}[Remote rendering for ultrascale data](/documents/SciDAC08.pdf){{% /pubtitle %}}.
 **Kenneth Moreland**, Daniel Lepage, David Koller, and Greg Humphreys.
-_Journal of Physics: Conference Series_, 012096, 125(012096), 2008.
+_Journal of Physics: Conference Series_, 125(012096), 2008.
 <small>([poster](/documents/SciDAC08_poster.pdf))</small>
 
 
