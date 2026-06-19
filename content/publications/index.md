@@ -13,16 +13,16 @@ Scholar page].
 
 ## Journal and Conference Papers
 
+{{% pubtitle %}}[Memory-Aware External Facelist Calculation: A Data-Parallel Atomic Hash Counting Approach](https://1drv.ms/b/c/AFD0E9B2332FFEE6/Ab0FVW-_0IxEoYfTyVawE2c?e=SnmDfu){{% /pubtitle %}}.
+Spiros Tsalikis, Will Schroeder, Daniel Szafir, and **Kenneth Moreland**.
+_IEEE Transactions on Visualization and Computer Graphics_, 32(6):1–10, June 2026.
+[doi:10.1109/TVCG.2026.3694435](https://dx.doi.org/10.1109/TVCG.2026.3694435).
+
 {{% pubtitle %}}[MAGIC: Marching Cubes Isosurface Uncertainty Visualization for Gaussian Uncertain Data with Spatial Correlation](https://1drv.ms/b/c/afd0e9b2332ffee6/IQBz-cOz9IltRaQlmeGriZjVAZfrriwLZpu3UwJFj5Di3oA?e=5VJG8d){{% /pubtitle %}}.
 Tushar M. Athawale, **Kenneth Moreland**, David Pugmire, Chris R. Johnson, Paul Rosen, Matthew Norman, Antigoni Georgiadou, and Alireza Entezari.
 _IEEE Transactions on Visualization and Computer Graphics_, pages 1–16, January 2026.
 (early access).
 [doi:10.1109/TVCG.2026.3653244](https://dx.doi.org/10.1109/TVCG.2026.3653244).
-
-{{% pubtitle %}}[Memory-Aware External Facelist Calculation: A Data-Parallel Atomic Hash Counting Approach](https://1drv.ms/b/c/AFD0E9B2332FFEE6/Ab0FVW-_0IxEoYfTyVawE2c?e=SnmDfu){{% /pubtitle %}}.
-Spiros Tsalikis, Will Schroeder, Daniel Szafir, and **Kenneth Moreland**.
-_IEEE Transactions on Visualization and Computer Graphics_, pages 1–10, 2026.
-[doi:10.1109/TVCG.2026.3694435](https://dx.doi.org/10.1109/TVCG.2026.3694435).
 
 {{% pubtitle %}}[Parallelize Over Data Particle Advection: Participation, Ping Pong Particles, and Overhead](https://1drv.ms/b/c/afd0e9b2332ffee6/EfDse-zmFXZHl2LdSS0OmXsBc4P8hAu1xRxaWg8F5L5dpw?e=mbz9oC){{% /pubtitle %}}.
 Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, and David Pugmire.
