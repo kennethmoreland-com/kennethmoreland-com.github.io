@@ -15,7 +15,7 @@ Member since 1998.
 ## Editor
 
 Associate Editor, IEEE Transactions on Visualization and Computer Graphics (TVCG):
-2022--Present.
+2022--2026.
 
 Guest Editor, Parallel Computing:
 2019.
