@@ -18,6 +18,12 @@ Tushar M. Athawale, **Kenneth Moreland**, David Pugmire, Chris R. Johnson, Paul 
 _IEEE Transactions on Visualization and Computer Graphics_, 32(7):4987–5002, July 2026.
 [doi:10.1109/TVCG.2026.3653244](https://dx.doi.org/10.1109/TVCG.2026.3653244).
 
+{{% pubtitle %}}[An Accelerated Clip Algorithm for Unstructured Meshes: A Batch-Driven Approach Using Data-Parallel Primitives](https://1drv.ms/b/c/afd0e9b2332ffee6/IQBUBjZQKNObRIuaAhaEHpV9AZtFGSX3djFoVrG4dZh_jpw?e=WMlTbs){{% /pubtitle %}}.
+Spiros Tsalikis, Will Schroeder, Daniel Szafir, and **Kenneth Moreland**.
+_Computer Graphics Forum_, June 2026.
+Preprint.
+[doi:10.1111/cgf.70552](https://dx.doi.org/10.1111/cgf.70552).
+
 {{% pubtitle %}}[Memory-Aware External Facelist Calculation: A Data-Parallel Atomic Hash Counting Approach](https://1drv.ms/b/c/AFD0E9B2332FFEE6/Ab0FVW-_0IxEoYfTyVawE2c?e=SnmDfu){{% /pubtitle %}}.
 Spiros Tsalikis, Will Schroeder, Daniel Szafir, and **Kenneth Moreland**.
 _IEEE Transactions on Visualization and Computer Graphics_, 32(6):1–10, June 2026.
@@ -28,10 +34,11 @@ Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, and Da
 _IEEE Transactions on Visualization and Computer Graphics_, 31(10):7795–7808, October 2025.
 [doi:10.1109/TVCG.2025.3557453](https://dx.doi.org/10.1109/TVCG.2025.3557453).
 
-{{% pubtitle %}}[The Origins of the ParaView and VisIt Scientific Visualization Tools](https://dx.doi.org/10.1109/MCG.2025.3595349){{% /pubtitle %}}.
+{{% pubtitle %}}[The Origins of the ParaView and VisIt Scientific Visualization Tools](https://1drv.ms/b/c/afd0e9b2332ffee6/IQCdYsfmXDFYRqtSKfRjNHgpAduCUp5WhT__E9Mhuwmp1_Q?e=k5Emkp){{% /pubtitle %}}.
 James Ahrens, Hank Childs, and **Kenneth Moreland**.
 _IEEE Computer Graphics and Applications_, 45(5):127–137, September 2025.
 [doi:10.1109/MCG.2025.3595349](https://dx.doi.org/10.1109/MCG.2025.3595349).
+<small>([slides](https://1drv.ms/p/c/afd0e9b2332ffee6/IQDA0xjZm9ooT5uWhuE2Olr_AXqfEqmE1KLR5ot0IKRnvqs?e=7Pm879))</small>
 
 {{% pubtitle %}}[In Situ Workload Estimation for Block Assignment and Duplication in Parallelization-Over-Data Particle Advection](https://1drv.ms/b/c/afd0e9b2332ffee6/EUpYoYJ5luZOlzf6XsFd620B1IKWWH85psW1ipqgb8LOTw?e=kaFS9e){{% /pubtitle %}}.
 Zhe Wang, **Kenneth Moreland**, Matthew Larsen, James Kress, Hank Childs, Guan Li, Guihua Shan, and David Pugmire.
@@ -151,8 +158,13 @@ PhD thesis, University of New Mexico, July 2004.
 
 {{% pubtitle %}}[Rasterization with Data-Parallel Primitives](/rasterization-dpp/){{% /pubtitle %}}.
 Makani Buckley, **Kenneth Moreland**, and Hank Childs.
-In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, 2026.
+In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, June 2026.
 (To appear in).
+
+{{% pubtitle %}}[Viskores: Integrating Parallel Scientific Visualization Research into Applications](https://1drv.ms/b/c/afd0e9b2332ffee6/IQD-_cLJX3QLSrwR34M8TepDASMkdZHNhifw9YattsgBoPc?e=9mT5DU){{% /pubtitle %}}.
+**K. Moreland**, J. Amstutz, T. M. Athawale, V. Bolea, M. Bolstad, H. Childs, B. Geveci, C. Harrison, M. Larsen, L.-T. Lo, N. Marsaglia, M. Mathai, D. Pugmire, S. Rizzi, S. Tsalikis, and G. H. Weber.
+In _VisGap - The Gap between Visualization Research and Visualization Software_, June 2026.
+<small>([slides](https://1drv.ms/p/c/afd0e9b2332ffee6/IQA6UmqEjongQobWJDv3sqGsAcHy83MQ28C1dA-0uU59HiY?e=MwDwHg))</small>
 
 {{% pubtitle %}}[Efficient Probabilistic Visualization of Local Divergence of 2D Vector Fields with Independent Gaussian Uncertainty](https://dx.doi.org/10.1109/UncertaintyVisualization68947.2025.00006){{% /pubtitle %}}.
 Timbwaoga A. J. Ouermi, Eric Li, **Kenneth Moreland**, Dave Pugmire, Chris R. Johnson, and Tushar M. Athawale.
