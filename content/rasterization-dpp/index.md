@@ -2,10 +2,10 @@
 title = 'Rasterization with Data-Parallel Primitives'
 +++
 
-{{% pubtitle %}}Rasterization with Data-Parallel Primitives{{% /pubtitle %}}.
+{{% pubtitle %}}[Rasterization with Data-Parallel Primitives](https://1drv.ms/b/c/afd0e9b2332ffee6/IQAJvG49uQG5Rb8BeKEJudpWARg_LZI1pQhVnX2Eod2z240?e=qkWiSP){{% /pubtitle %}}.
 Makani Buckley, Kenneth Moreland, and Hank Childs.
 In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, 2026.
-(To appear in).
+[doi:10.2312/egpgv.20261000](https://dx.doi.org/10.2312/egpgv.20261000).
 
 ## Abstract
 

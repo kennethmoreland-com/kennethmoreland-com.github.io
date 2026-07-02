@@ -159,11 +159,12 @@ PhD thesis, University of New Mexico, July 2004.
 {{% pubtitle %}}[Rasterization with Data-Parallel Primitives](/rasterization-dpp/){{% /pubtitle %}}.
 Makani Buckley, **Kenneth Moreland**, and Hank Childs.
 In _Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)_, June 2026.
-(To appear in).
+[doi:10.2312/egpgv.20261000](https://dx.doi.org/10.2312/egpgv.20261000).
 
 {{% pubtitle %}}[Viskores: Integrating Parallel Scientific Visualization Research into Applications](https://1drv.ms/b/c/afd0e9b2332ffee6/IQD-_cLJX3QLSrwR34M8TepDASMkdZHNhifw9YattsgBoPc?e=9mT5DU){{% /pubtitle %}}.
-**K. Moreland**, J. Amstutz, T. M. Athawale, V. Bolea, M. Bolstad, H. Childs, B. Geveci, C. Harrison, M. Larsen, L.-T. Lo, N. Marsaglia, M. Mathai, D. Pugmire, S. Rizzi, S. Tsalikis, and G. H. Weber.
+**Kenneth Moreland**, Jefferson Amstutz, Tushar M. Athawale, Vicente Bolea, Mark Bolstad, Hank Childs, Berk Geveci, Cyrus Harrison, Matthew Larsen, Li-Ta Lo, Nicole Marsaglia, Manish Mathai, David Pugmire, Silvio Rizzi, Spiros Tsalikis, and Gunther H. Weber.
 In _VisGap - The Gap between Visualization Research and Visualization Software_, June 2026.
+[doi:10.2312/visgap.20261000](https://dx.doi.org/10.2312/visgap.20261000).
 <small>([slides](https://1drv.ms/p/c/afd0e9b2332ffee6/IQA6UmqEjongQobWJDv3sqGsAcHy83MQ28C1dA-0uU59HiY?e=MwDwHg))</small>
 
 {{% pubtitle %}}[Efficient Probabilistic Visualization of Local Divergence of 2D Vector Fields with Independent Gaussian Uncertainty](https://dx.doi.org/10.1109/UncertaintyVisualization68947.2025.00006){{% /pubtitle %}}.
