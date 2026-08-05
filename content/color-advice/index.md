@@ -508,6 +508,13 @@ We know the rainbow color map is terrible, and it is emphatically reviled by the
 
 ## Related Works
 
+* {{% pubtitle %}}A New Default Colormap for ParaView{{% /pubtitle %}}.
+  Francesca Samsel, W. Alan Scott, and Kenneth Moreland.
+  _IEEE Computer Graphics and Applications_, 44(4):150–160, July 2024.
+  [doi:10.1109/MCG.2024.3383137](https://dx.doi.org/10.1109/MCG.2024.3383137).
+  * Revisits the cool-to-warm colormap used as the default colormap in ParaView
+    and revises the colors to provide more discriminability and perceptual
+    evenness.
 * {{% pubtitle %}}Diverging Color Maps for Scientific Visualization{{% /pubtitle %}}.
   Kenneth Moreland. In _Proceedings of the 5th International Symposium on
   Visual Computing_, December 2009. DOI
