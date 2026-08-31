@@ -22,6 +22,19 @@ Guest Editor, Parallel Computing:
 
 ## Steering Committee Member
 
+In Situ AI, Analysis and Visualization (ISAV):
+[2025](https://isav-workshop.github.io/2025/),
+[2026](https://isav-workshop.github.io/2026/).
+
+Workshop on In Situ Visualization (WOIV):
+[2018](https://woiv.gitlab.io/woiv18/),
+[2021](https://woiv.gitlab.io/woiv21/),
+[2022](https://woiv.gitlab.io/woiv22/),
+[2023](https://woiv.gitlab.io/woiv23/),
+[2024](https://woiv.gitlab.io/woiv24/),
+[2025](https://woiv.gitlab.io/woiv25/),
+[2026](https://woiv.gitlab.io/woiv26/).
+
 IEEE Symposium on Large Data Analysis and Visualization (LDAV):
 [2020](https://ldav.io/2020/),
 [2021](https://ldav.io/2021/),
@@ -35,16 +48,7 @@ In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization (I
 [2021](https://dav.lbl.gov/events/ISAV2021/),
 [2022](https://dav.lbl.gov/events/ISAV2022/),
 [2023](https://isav-workshop.github.io/2023/),
-[2024](https://isav-workshop.github.io/2024/),
-[2025](https://isav-workshop.github.io/2025/).
-
-Workshop on In Situ Visualization (WOIV):
-[2018](https://woiv.gitlab.io/woiv18/),
-[2021](https://woiv.gitlab.io/woiv21/),
-[2022](https://woiv.gitlab.io/woiv22/),
-[2023](https://woiv.gitlab.io/woiv23/),
-[2024](https://woiv.gitlab.io/woiv24/),
-[2025](https://woiv.gitlab.io/woiv25/).
+[2024](https://isav-workshop.github.io/2024/).
 
 International Symposium on Visual Computing (ISVC):
 2020,
@@ -91,8 +95,12 @@ In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization (I
 
 ## Program Committee Member
 
-IEEE VIS:
-[2023](https://ieeevis.org/year/2023/welcome).
+International Conference for High Performance Computing, Networking, Storage, and Analysis (Supercomputing):
+[2012 (papers)](http://sc12.supercomputing.org/),
+[2013 (papers)](http://sc13.supercomputing.org/),
+[2023 (papers)](http://sc23.supercomputing.org/),
+[2025 (papers, tutorials, e-Posters)](http://sc25.supercomputing.org/),
+[2026 (papers, tutorials, e-Posters)](http://sc26.supercomputing.org/).
 
 EuroVis:
 [2016](https://www.cs.rug.nl/jbi/eurovis2016/),
@@ -100,7 +108,19 @@ EuroVis:
 [2018](https://www.eurovis2018.org/),
 [2021](https://eurovis21.ifi.uzh.ch/),
 [2022](https://conferences.eg.org/eurovis2022/),
-[2023](https://conferences.eg.org/eurovis2023/).
+[2023](https://conferences.eg.org/eurovis2023/),
+[2025](https://www.eurovis2025.lu/),
+[2026](https://eurovis.org.uk/).
+
+HPC Asia:
+[2027](https://hpcasia2027.org/).
+
+Conference on Computer Graphics, Interaction and Visualization Theory and Applications (GRIVAPP):
+[2027](https://grivapp.scitevents.org/).
+
+IEEE VIS:
+[2023](https://ieeevis.org/year/2023/welcome),
+[2024](https://ieeevis.org/year/2024/welcome).
 
 Scientific Visualization & Data Analytics Showcase, Supercomputing:
 [2017](https://sc17.supercomputing.org/submitters/scientific-visualization-showcase/index.html),
@@ -170,10 +190,6 @@ Ultrascale Visualization:
 [2013](http://vis.cs.ucdavis.edu/Ultravis13/),
 [2014](http://vis.cs.ucdavis.edu/Ultravis14/).
 
-International Conference for High Performance Computing, Networking, Storage, and Analysis (Supercomputing):
-[2012](http://sc12.supercomputing.org/),
-[2013](http://sc13.supercomputing.org/).
-
 Big Data Analytics: Challenges and Opportunities:
 [2012](http://sc12.supercomputing.org/schedule/event_detail.php-evid=wksp132.html),
 [2013](http://sc13.supercomputing.org/schedule/event_detail.php-evid=wksp142.html).
@@ -222,6 +238,9 @@ DOE ASCR:
 2013.
 
 ## Miscellaneous
+
+HPSF Technical Advisory Committee member:
+[2025--Present](https://hpsf.io/).
 
 Best Reviewer Award:
 [EuroVis 2022](https://conferences.eg.org/eurovis2022/best-paper-and-best-reviewer-awards/).
