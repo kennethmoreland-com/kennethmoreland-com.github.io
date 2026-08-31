@@ -374,11 +374,34 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 
 ## Technical Reports and other Non Peer Reviewed
 
+{{% pubtitle %}}[RaivenTracks: Branching Provenance for Conversational Visualization Workflows](https://dx.doi.org/10.48550/arXiv.2608.14869){{% /pubtitle %}}.
+Ella Hugie, Alexandra Irger, Grace Guo, **Kenneth Moreland**, David Pugmire, Scott Klasky, and Hanspeter Pfister.
+_arXiv:2608.14869_, August 2026.
+[doi:10.48550/arXiv.2608.14869](https://dx.doi.org/10.48550/arXiv.2608.14869).
+
+{{% pubtitle %}}[The Viskores User's Guide, Release 1.2](https://viskores.readthedocs.io/en/v1.2.0/){{% /pubtitle %}}.
+**Kenneth Moreland**.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2026/4700, August 2026.
+
+{{% pubtitle %}}[Raiven: LLM-Based Visualization Authoring via Domain-Specific Language Mediation](https://dx.doi.org/10.48550/arXiv.2604.10008){{% /pubtitle %}}.
+Alexandra Irger, Ella Hugie, Minghao Guo, Simon Warchol, **Kenneth Moreland**, David Pugmire, Wojciech Matusik, and Hanspeter Pfister.
+_arXiv:2604.10008_, April 2026.
+[doi:10.48550/arXiv.2604.10008](https://dx.doi.org/10.48550/arXiv.2604.10008).
+
+{{% pubtitle %}}[GS-Surrogate: Deformable Gaussian Splatting for Parameter Space Exploration of Ensemble Simulations](https://dx.doi.org/10.48550/arXiv.2604.06358){{% /pubtitle %}}.
+Ziwei Li, Rumali Perera, Angus Forbes, **Ken Moreland**, Dave Pugmire, Scott Klasky, Wei-Lun Chao, and Han-Wei Shen.
+_arXiv:2604.06358_, April 2026.
+[doi:10.48550/arXiv.2604.06358](https://dx.doi.org/10.48550/arXiv.2604.06358).
+
 {{% pubtitle %}}[Scientific Data Compression for Large Scale Computational Fluid Dynamics (CFD) Simulations](https://dx.doi.org/10.2172/3029729){{% /pubtitle %}}.
 Viktor Reshniak, Qian Gong, Rick Archibald, Scott Klasky, Norbert Podhorszki, and **Ken Moreland**.
 Oak Ridge National Laboratory (ORNL), Technical Report ORNL/TM-2026/4558, April 2026.
 CRADA Final Report – NFE-22-09231.
 [doi:10.2172/3029729](https://dx.doi.org/10.2172/3029729).
+
+{{% pubtitle %}}[The Viskores User's Guide, Release 1.1](https://viskores.readthedocs.io/en/v1.1.1/){{% /pubtitle %}}.
+**Kenneth Moreland**.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2025/4175, September 2025.
 
 {{% pubtitle %}}[The Viskores User's Guide, Release 1.0](https://viskores.readthedocs.io/en/v1.0.0/){{% /pubtitle %}}.
 **Kenneth Moreland**.
@@ -725,6 +748,10 @@ _Supercomputing Tutorials_, November 2005.
 
 ## Posters
 
+{{% pubtitle %}}[MAGNET FDM: Next-Generation Visualization](https://1drv.ms/p/c/afd0e9b2332ffee6/IQBNxrbYJv1MR4Mai_HWYvmbAZo8Zc2-0rUO8hhbFlzOT5c?e=EzXR5f){{% /pubtitle %}}.
+**Kenneth Moreland**, Hanspeter Pfister, Anand Rangarajan, Han-Wei Shen, Scott Klasky, David Pugmire, and Sanjay Ranka.
+In _Computer Science Principal Investigators (PI) Meeting_, July 2026.
+
 {{% pubtitle %}}[Visualizing Imaging Data with NDIP and NOVA](https://1drv.ms/p/c/afd0e9b2332ffee6/EaFc7YBDLzhGiWG4MOjhCtYBYGNH23KAhGkvkMNgCZpQcA?e=N2AOXy){{% /pubtitle %}}.
 John Duggan, Dave Pugmire, **Ken Moreland**, Greg Watson, Sergey Yakubov, Greg Cage, and Andrew Ayres.
 In _Joint Nanoscience and Neutron Scattering User Meeting_, August 2025.
@@ -758,6 +785,10 @@ _Journal of Physics: Conference Series_, 125(012096), 2008.
 <div id="presentation"></div>
 
 ## Presentations
+
+{{% pubtitle %}}Advanced AI Models & Algorithms & Generative AI Breakout{{% /pubtitle %}}.
+**Kenneth Moreland**.
+_Computer Science Principal Investigators (PI) Meeting_, July 2026.
 
 {{% pubtitle %}}[Viskores Update](https://1drv.ms/p/c/afd0e9b2332ffee6/EVQ97C_Pt_pLpnxp5Ura7QcBMoNWOckG0ud0kkTjekcFWg?e=0RJgXb){{% /pubtitle %}}.
 **Kenneth Moreland**.
