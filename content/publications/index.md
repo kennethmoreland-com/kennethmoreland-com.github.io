@@ -374,6 +374,10 @@ In _Proceedings of the IEEE 2001 Symposium on Parallel and Large-Data Visualizat
 
 ## Technical Reports and other Non Peer Reviewed
 
+{{% pubtitle %}}[Data and AI Systems Section: FY 2026 Highlights](https://1drv.ms/b/c/afd0e9b2332ffee6/IQA4PdGhh3p6QZcHk_LJX7wsARZAmgnXseCJNJ2OaJ0VJY0?e=9WzlU9){{% /pubtitle %}}.
+Rafael Ferreira da Silva, Scott Klasky, Robert M. Patton, David Pugmire, Todd M. Thomas, Patrick M. Widener, Tushar Athawale, Chandreyee Bhowmick, Junghoon Chae, Jong Youl Choi, Mark Coletti, Guojing Cong, Sanjay Das, Prasanna Date, Chelsey Dunivan Stahl, Katherine Engstrom, Ashish Gautam, Qian Gong, Zachary L. Johnson-Scott, Minsu Kim, Olivera Kotevska, Jaemoon Lee, Zhimin Li, Jeremy Logan, Kshitij Mehta, **Kenneth Moreland**, Norbert Podhorszki, Erik Schmidt, Eric Suchyta, and Fred Suter.
+Oak Ridge National Laboratory, Technical Report ORNL/TM-2026/4963, October 2026.
+
 {{% pubtitle %}}[RaivenTracks: Branching Provenance for Conversational Visualization Workflows](https://dx.doi.org/10.48550/arXiv.2608.14869){{% /pubtitle %}}.
 Ella Hugie, Alexandra Irger, Grace Guo, **Kenneth Moreland**, David Pugmire, Scott Klasky, and Hanspeter Pfister.
 _arXiv:2608.14869_, August 2026.
